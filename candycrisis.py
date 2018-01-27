@@ -40,9 +40,10 @@ def main():
 
     # Get initial configurations from the input file 
     readConfigs('inputs.txt') 
-    # Iterate over all games in file
+
+    # MAIN GAME LOOP
     gameCount = 1
-    for gameConfig in INITIAL_GAME_CONFIGS:
+    for gameConfig in INITIAL_GAME_CONFIGS:  # Iterate over all games in input file
         print "Game: " + str(gameCount)
         currentGame = gameConfig.split()
         printBoard(currentGame) 
