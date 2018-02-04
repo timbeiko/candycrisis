@@ -1,5 +1,5 @@
 # Candy Crisis
-Semester project for COMP472. Adding this for an example. 
+Semester project for COMP472.
 
 The main file for this project is `candycrisis.py`
 
