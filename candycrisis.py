@@ -1,5 +1,6 @@
 import numpy as np 
 import os
+import time
 
 INITIAL_GAME_CONFIGS = []
 output_file = 'outputs.txt'
@@ -32,10 +33,7 @@ def outputGameInfo(gameCount, time, moves):
             f.write(move)
         f.write("\n")
         # Time to complete 
-        f.write(str(time) + "ms\n\n")
-
-
-
+        f.write(str(time) + " seconds\n\n")
 
 def main(): 
     # To clear the screen 
@@ -59,6 +57,7 @@ def main():
     # MAIN GAME LOOP
     gameCount = 1
     for gameConfig in INITIAL_GAME_CONFIGS:  # Iterate over all games in input file
+        startTime = time.time()
         print "Game: " + str(gameCount)
         currentGame = gameConfig.split()
         printBoard(currentGame) 
@@ -83,9 +82,12 @@ def main():
         # Clear screen  
         print(chr(27) + "[2J")
 
+        # Get total time of game 
+        totalTime = time.time() - startTime
+
         # End of current game 
-        print "\n"
-        outputGameInfo(gameCount, 234, ['A', 'B', 'C', 'D', 'E'])
+        print "\n"                               # Dummy data 
+        outputGameInfo(gameCount, totalTime, ['A', 'B', 'C', 'D', 'E']) 
         gameCount += 1
 
     print "Thank you for playing!"
