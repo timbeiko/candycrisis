@@ -23,6 +23,19 @@ def printBoard(currentGame):
 def validMove(move):
     return True
 
+def outputGameInfo(gameCount, time, moves):
+    with open(output_file, "a") as f:
+        # Number of the game
+        f.write("Game " + str(gameCount) + "\n")
+        # Moves Played
+        for move in moves:
+            f.write(move)
+        f.write("\n")
+        # Time to complete 
+        f.write(str(time) + "ms\n\n")
+
+
+
 
 def main(): 
     # To clear the screen 
@@ -40,6 +53,8 @@ def main():
 
     # Get initial configurations from the input file 
     readConfigs('inputs.txt') 
+    # Clear output file from previous games 
+    open(output_file, "w")
 
     # MAIN GAME LOOP
     gameCount = 1
@@ -70,6 +85,7 @@ def main():
 
         # End of current game 
         print "\n"
+        outputGameInfo(gameCount, 234, ['A', 'B', 'C', 'D', 'E'])
         gameCount += 1
 
     print "Thank you for playing!"
