@@ -3,6 +3,9 @@ Semester project for COMP472.
 
 The main file for this project is `candycrisis.py`
 
+To run this on the lab machines at Concordia (Linux) you will need to run the following command: `module load python/2.7.10`
+
+
 ### First deliverables (Feb. 15)
 Manual entries + Functionality of the rules of the game
 (e.g. visual trace after each move, detection of illegal moves, programming quality…) 
