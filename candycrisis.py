@@ -4,7 +4,27 @@ import time
 
 INITIAL_GAME_CONFIGS = []
 output_file = 'outputs.txt'
-LETTER_BOARD = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O']
+LETTER_BOARD = ['A', 'B', 'C', 'D', 'E', 
+                'F', 'G', 'H', 'I', 'J', 
+                'K', 'L', 'M', 'N', 'O']
+
+VALID_MOVES = {
+    'A': ['B', 'F', 'G'], 
+    'B': ['A', 'G', 'C'], 
+    'C': ['B', 'D', 'H'],
+    'D': ['C', 'I', 'E'],
+    'E': ['D', 'J'],
+    'F': ['A', 'G', 'K'],
+    'G': ['B', 'F', 'L', 'H'],
+    'H': ['C', 'G', 'M', 'I'], 
+    'I': ['D', 'H', 'N', 'J'], 
+    'J': ['I', 'E', 'O'], 
+    'K': ['F', 'L'], 
+    'L': ['G', 'K', 'M'], 
+    'M': ['L', 'H', 'N'], 
+    'N': ['M', 'I', 'O'], 
+    'O': ['N', 'J']
+}
 
 def readConfigs(inputFile): 
     inputs = open(inputFile, 'r')
@@ -20,9 +40,10 @@ def printBoard(currentGame):
         else:
             print currentGame[i] + " |",
 
-# To be implemented
-def validMove(move):
-    return True
+def validMove(move, currentGame):
+    index = currentGame.index('e')
+    emptyLetter = chr(index + 65)
+    return (move in VALID_MOVES[emptyLetter])
 
 def outputGameInfo(gameCount, time, moves):
     with open(output_file, "a") as f:
@@ -34,6 +55,24 @@ def outputGameInfo(gameCount, time, moves):
         f.write("\n")
         # Time to complete 
         f.write(str(time) + " seconds\n\n")
+
+def checkIfGameWon(currentGame):
+    i = 0
+    j = 10
+    while i < 5: 
+        if currentGame[i] != currentGame[j]:
+            return False 
+        i += 1
+        j += 1 
+    return True 
+
+def moveCandy(move, currentGame):
+    indexOfEmpty = currentGame.index('e')
+    indexOfMove = ord(move) - 65
+    currentGame[indexOfEmpty] = currentGame[indexOfMove] 
+    currentGame[indexOfMove] = 'e'
+    return currentGame
+
 
 def main(): 
     # To clear the screen 
@@ -57,30 +96,43 @@ def main():
     # MAIN GAME LOOP
     gameCount = 1
     for gameConfig in INITIAL_GAME_CONFIGS:  # Iterate over all games in input file
+        # Variables for the current game 
         startTime = time.time()
-        print "Game: " + str(gameCount)
+        movesPlayed = []
         currentGame = gameConfig.split()
-        printBoard(currentGame) 
-        print 
-        printBoard(LETTER_BOARD)
-        print
 
+        # Single game loop 
         while True: 
-            move = raw_input("Enter a letter between A and O: ")
+            print "Game: " + str(gameCount)
+            printBoard(currentGame) 
+            print 
+            printBoard(LETTER_BOARD)
+            print
 
-            # String too long or too short 
-            if len(move) != 1: 
-                continue    
-            # Valid character  
-            elif ord(move.upper()) >= 65 and ord(move.upper()) < 80:
-                if validMove(move):
-                    break 
-            # Invalid character
-            else:
-                print "\nThat is not a letter between A and O. Try again."
+            # Single move loop 
+            while True: 
+                move = raw_input("Enter a letter between A and O: ")
+                move = move.upper()
 
-        # Clear screen  
-        print(chr(27) + "[2J")
+                # String too long or too short 
+                if len(move) != 1: 
+                    continue    
+                # Valid character  
+                elif ord(move) >= 65 and ord(move) < 80:
+                    if validMove(move, currentGame):
+                        currentGame = moveCandy(move, currentGame)
+                        break
+                    else: 
+                        print "Invalid move. Please choose a letter corresponding to a tile adjacent to the empty one."
+                # Invalid character
+                else:
+                    print "\nThat is not a letter between A and O. Try again."
+
+            if checkIfGameWon(currentGame):
+                break 
+
+            # Clear screen  
+            print(chr(27) + "[2J")
 
         # Get total time of game 
         totalTime = time.time() - startTime
