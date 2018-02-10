@@ -1,12 +1,12 @@
 Game 1
 ABCDE
-2.38358998299 seconds
+4.67401814461 seconds
 
 Game 2
 ABCDE
-0.767843961716 seconds
+8.3845770359 seconds
 
 Game 3
 ABCDE
-1.36733007431 seconds
+0.665552139282 seconds
 
