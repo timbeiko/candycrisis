@@ -120,7 +120,7 @@ def main():
                 # Valid character  
                 elif ord(move) >= 65 and ord(move) < 80:
                     if validMove(move, currentGame):
-                        currentGame = moveCandy(move, currentGame)
+                        movesPlayed.append(move)
                         break
                     else: 
                         print "Invalid move. Please choose a letter corresponding to a tile adjacent to the empty one."
@@ -128,18 +128,25 @@ def main():
                 else:
                     print "\nThat is not a letter between A and O. Try again."
 
+            currentGame = moveCandy(move, currentGame)
             if checkIfGameWon(currentGame):
+                # Get total time of game 
+                totalTime = time.time() - startTime
+
+                print(chr(27) + "[2J")
+                print "Game Won!"
+                print "Final game board:"
+                printBoard(currentGame)
+                print
+                raw_input("Press Enter to continue...")
                 break 
 
-            # Clear screen  
+            # Clear screen 
             print(chr(27) + "[2J")
 
-        # Get total time of game 
-        totalTime = time.time() - startTime
-
         # End of current game 
-        print "\n"                               # Dummy data 
-        outputGameInfo(gameCount, totalTime, ['A', 'B', 'C', 'D', 'E']) 
+        print "\n"                              
+        outputGameInfo(gameCount, totalTime, movesPlayed) 
         gameCount += 1
 
     print "Thank you for playing!"
