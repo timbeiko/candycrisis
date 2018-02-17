@@ -5,8 +5,21 @@ The main file for this project is `candycrisis.py`
 
 To run this on the lab machines at Concordia (Linux) you will need to run the following command: `module load python/2.7.10`
 
+### Second deliverable (Mar. 15)
+Automatic Mode
+(e.g. implementation of the search, output file generation, programming quality…) 
 
-### First deliverables (Feb. 15)
+#### TODOs
+
+- [ ] Refactor current code to let user choose between manual and automatic mode 
+- [ ] For automatic mode, output intermediate screens to file rather than on-screen 
+  - Perhaps save them in memory and only output at the end of the game ? 
+- [ ] Save & output the total number of moves it took to solve all the puzzles of the input file 
+- [ ] Choose heuristic to implement
+- [ ] Decide "how deep" to search at each turn / what algorithm to use 
+- [ ] ??? 
+
+### First deliverable (Feb. 15)
 Manual entries + Functionality of the rules of the game
 (e.g. visual trace after each move, detection of illegal moves, programming quality…) 
 
