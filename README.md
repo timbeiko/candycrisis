@@ -11,7 +11,7 @@ Automatic Mode
 
 #### TODOs
 
-- [ ] Refactor current code to let user choose between manual and automatic mode 
+- [x] Refactor current code to let user choose between manual and automatic mode 
 - [ ] For automatic mode, output intermediate screens to file rather than on-screen 
   - Perhaps save them in memory and only output at the end of the game ? 
 - [ ] Save & output the total number of moves it took to solve all the puzzles of the input file 
