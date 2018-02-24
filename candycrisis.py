@@ -34,9 +34,9 @@ def readConfigs(inputFile):
 def printBoard(currentGame):
     for i in range(0,15):
         if i % 5 == 0:
-            print "\n|",
+            print ("\n|"),
         if currentGame[i] == 'e': 
-            print "  |",
+            print ("  |"),
         else:
             print currentGame[i] + " |",
 
@@ -74,14 +74,8 @@ def moveCandy(move, currentGame):
     return currentGame
 
 
-def main(): 
-    # To clear the screen 
-    print(chr(27) + "[2J")
-    print "Welcome to Candy Crisis\n";
-    print "Currently, only the manual mode is available, but come back soon to witness the automated mode!"
-    raw_input("Press Enter to continue...")
-    print(chr(27) + "[2J")
 
+def manual_mode():
     print "To choose your next move, simply type the letter corresponding to the candy you want to move in the empty space."
     print "A board showing the letters for each position will be displayed underneath the game board."
     print "Be quick! You are timed!"
@@ -96,7 +90,7 @@ def main():
     # MAIN GAME LOOP
     gameCount = 1
     for gameConfig in INITIAL_GAME_CONFIGS:  # Iterate over all games in input file
-        # Variables for the current game 
+    # Variables for the current game 
         startTime = time.time()
         movesPlayed = []
         currentGame = gameConfig.split()
@@ -128,28 +122,54 @@ def main():
                 else:
                     print "\nThat is not a letter between A and O. Try again."
 
-            currentGame = moveCandy(move, currentGame)
-            if checkIfGameWon(currentGame):
-                # Get total time of game 
-                totalTime = time.time() - startTime
+        currentGame = moveCandy(move, currentGame)
+        if checkIfGameWon(currentGame):
+            # Get total time of game 
+            totalTime = time.time() - startTime
 
-                print(chr(27) + "[2J")
-                print "Game Won!"
-                print "Final game board:"
-                printBoard(currentGame)
-                print
-                raw_input("Press Enter to continue...")
-                break 
-
-            # Clear screen 
             print(chr(27) + "[2J")
+            print "Game Won!"
+            print "Final game board:"
+            printBoard(currentGame)
+            print
+            raw_input("Press Enter to continue...")
+            break 
 
-        # End of current game 
-        print "\n"                              
-        outputGameInfo(gameCount, totalTime, movesPlayed) 
-        gameCount += 1
+        # Clear screen 
+        print(chr(27) + "[2J")
 
-    print "Thank you for playing!"
+    # End of current game 
+    print "\n"                              
+    outputGameInfo(gameCount, totalTime, movesPlayed) 
+    gameCount += 1
+
+    return True
+
+#automatic mode
+def automatic_mode():
+    return True  
+
+def main(): 
+    # To clear the screen 
+    print(chr(27) + "[2J")
+    print "Welcome to Candy Crisis\n";
+    print "Currently, only the manual mode is available, but come back soon to witness the automated mode!"
+    print ("A : Manual Mode")
+    print("B : Automatic Mode")
+    user_input = raw_input("Please enter something: ")
+    print("You entered " + str(user_input))
+    raw_input("Press Enter to continue...")
+    print(chr(27) + "[2J")
+    
+    if (user_input == "A"):
+        result = manual_mode()
+        if (result == True):
+            print ("Thank you for playing!")
+        else:
+            print ("Sorry Manual Mode Failed. Try Again" ) 
+    else:
+        result = automatic_mode()
+                          
 
 if __name__ == '__main__':
     main()
