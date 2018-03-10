@@ -1,6 +1,11 @@
 import numpy as np 
 import os
 import time
+from Node import Node 
+from copy import deepcopy as dc 
+
+# for debugging 
+# import pdb; pdb.set_trace()
 
 INITIAL_GAME_CONFIGS = []
 output_file = 'outputs.txt'
@@ -67,13 +72,14 @@ def checkIfGameWon(currentGame):
     return True 
 
 def moveCandy(move, currentGame):
-    indexOfEmpty = currentGame.index('e')
+    # Important to make a copy of currentGame otherwise 
+    # when doing automatic mode, it will keep updating the currentNode and not its children
+    gameCopy = dc(currentGame);
+    indexOfEmpty = gameCopy.index('e')
     indexOfMove = ord(move) - 65
-    currentGame[indexOfEmpty] = currentGame[indexOfMove] 
-    currentGame[indexOfMove] = 'e'
-    return currentGame
-
-
+    gameCopy[indexOfEmpty] = gameCopy[indexOfMove] 
+    gameCopy[indexOfMove] = 'e'
+    return gameCopy
 
 def manual_mode():
     print "To choose your next move, simply type the letter corresponding to the candy you want to move in the empty space."
@@ -123,18 +129,18 @@ def manual_mode():
                 else:
                     print "\nThat is not a letter between A and O. Try again."
 
-        currentGame = moveCandy(move, currentGame)
-        if checkIfGameWon(currentGame):
-            # Get total time of game 
-            totalTime = time.time() - startTime
+            currentGame = moveCandy(move, currentGame)
+            if checkIfGameWon(currentGame):
+                # Get total time of game 
+                totalTime = time.time() - startTime
 
-            print(chr(27) + "[2J")
-            print "Game Won!"
-            print "Final game board:"
-            printBoard(currentGame)
-            print
-            raw_input("Press Enter to continue...")
-            break 
+                print(chr(27) + "[2J")
+                print "Game Won!"
+                print "Final game board:"
+                printBoard(currentGame)
+                print
+                raw_input("Press Enter to continue...")
+                break 
 
         # Clear screen 
         print(chr(27) + "[2J")
@@ -143,18 +149,85 @@ def manual_mode():
     print "\n"                              
     outputGameInfo(gameCount, totalTime, movesPlayed) 
     gameCount += 1
-
     return True
 
-#automatic mode
+# Automatic Mode 
 def automatic_mode():
-    return True  
+    # Get initial configurations from the input file 
+    readConfigs('inputs.txt') 
+    
+    # Clear output file from previous games 
+    open(output_file, "w")
+
+    # MAIN GAME LOOP
+    gameCount = 1
+    totalMovesPlayed = 0
+    for gameConfig in INITIAL_GAME_CONFIGS:  # Iterate over all games in input file
+
+        print "Game " + str(gameCount)
+        # Variables for the current game 
+        movesPlayed = []
+        currentGame = gameConfig.split()
+        openlist = []
+        closedlist = []
+        startTime = time.time()
+
+        # Use first empty node as root of tree
+        rootNode = Node(None, currentGame, 0, 0, "")
+        openlist.append(rootNode)
+
+        while len(openlist) != 0: 
+            openlist = sorted(openlist, key=lambda n: n.F)
+            currentNode = openlist.pop(0)
+
+            if checkIfGameWon(currentNode.config):
+                # TODO: move this to the output file 
+                print currentNode.path
+                printBoard(currentNode.config)
+                print
+                print str(time.time() - startTime)
+                totalMovesPlayed += len(currentNode.path)
+                print
+                break 
+            
+            index = currentNode.config.index('e')
+            emptyLetter = chr(index + 65)
+            nextMoves = VALID_MOVES[emptyLetter]
+
+            for move in nextMoves: 
+                g_n = currentNode.G + 1 
+                moveConfig = moveCandy(move, currentNode.config)
+                moveNode = Node(currentNode, moveConfig, g_n, 0, currentNode.path + move)
+
+                addToOpen = True
+
+                # Don't add node to openlist if there is a shorter path to the same config 
+                if moveNode in openlist:
+                    if moveNode.G <= g_n: 
+                        addToOpen = False 
+
+                # Don't add a node to the closed list if we've visited the same config 
+                # from a shorter path before 
+                if moveNode in closedlist:
+                    if moveNode.G <= g_n: 
+                        addToOpen = False 
+
+                # Add to open list if none of the two conditions above apply 
+                if addToOpen: 
+                    openlist.append(moveNode)
+            closedlist.append(currentNode)
+
+        # increment game count     
+        gameCount += 1 
+
+    # Keep track of total moves played 
+    print totalMovesPlayed 
 
 def main(): 
     # To clear the screen 
     print(chr(27) + "[2J")
+
     print "Welcome to Candy Crisis\n";
-    print "Currently, only the manual mode is available, but come back soon to witness the automated mode!"
     print ("A : Manual Mode")
     print("B : Automatic Mode")
     user_input = raw_input("Please enter something: ")
@@ -162,7 +235,7 @@ def main():
     raw_input("Press Enter to continue...")
     print(chr(27) + "[2J")
     
-    if (user_input == "A"):
+    if (user_input.upper() == "A"):
         result = manual_mode()
         if (result == True):
             print ("Thank you for playing!")
@@ -170,7 +243,6 @@ def main():
             print ("Sorry Manual Mode Failed. Try Again" ) 
     else:
         result = automatic_mode()
-                          
 
 if __name__ == '__main__':
     main()
