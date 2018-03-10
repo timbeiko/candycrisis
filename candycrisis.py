@@ -114,6 +114,7 @@ def manual_mode():
                 # Valid character  
                 elif ord(move) >= 65 and ord(move) < 80:
                     if validMove(move, currentGame):
+                        currentGame = moveCandy(move, currentGame)
                         movesPlayed.append(move)
                         break
                     else: 
