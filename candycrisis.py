@@ -81,6 +81,9 @@ def moveCandy(move, currentGame):
     gameCopy[indexOfMove] = 'e'
     return gameCopy
 
+def heuristic(gameConfig):
+    return 0 
+
 def manual_mode():
     print "To choose your next move, simply type the letter corresponding to the candy you want to move in the empty space."
     print "A board showing the letters for each position will be displayed underneath the game board."
@@ -156,11 +159,9 @@ def manual_mode():
         f.write("Total moves played: " + str(totalMovesPlayed))
     return True
 
-# Automatic Mode 
 def automatic_mode():
     # Get initial configurations from the input file 
     readConfigs('inputs.txt') 
-    
     # Clear output file from previous games 
     open(output_file, "w")
 
@@ -168,8 +169,8 @@ def automatic_mode():
     gameCount = 1
     totalMovesPlayed = 0
     for gameConfig in INITIAL_GAME_CONFIGS:  # Iterate over all games in input file
-
         print "Game " + str(gameCount)
+
         # Variables for the current game 
         movesPlayed = []
         currentGame = gameConfig.split()
@@ -178,7 +179,7 @@ def automatic_mode():
         startTime = time.time()
 
         # Use first empty node as root of tree
-        rootNode = Node(None, currentGame, 0, 0, "")
+        rootNode = Node(None, currentGame, 0, heuristic(currentGame), "")
         openlist.append(rootNode)
 
         # Loop until openlist is empty 
@@ -186,6 +187,7 @@ def automatic_mode():
             openlist = sorted(openlist, key=lambda n: n.F) # Sort open list by f(n)
             currentNode = openlist.pop(0) # Get lowest value of open list
 
+            # Check if the game is won, if so, output game information 
             if checkIfGameWon(currentNode.config):
                 print currentNode.path
                 printBoard(currentNode.config)
@@ -195,6 +197,7 @@ def automatic_mode():
 
                 totalMovesPlayed += len(currentNode.path)
                 outputGameInfo(gameCount, time.time() - startTime, currentNode.path)
+                # outputGameMoves(gameCount, currentNode.path, )
                 break 
 
             # Get letter corresponding to empty tile, and it's next moves            
@@ -206,7 +209,9 @@ def automatic_mode():
             for move in nextMoves: 
                 g_n = currentNode.G + 1 
                 moveConfig = moveCandy(move, currentNode.config) # Board after playing move 
-                moveNode = Node(currentNode, moveConfig, g_n, 0, currentNode.path + move)
+
+                # Create node for move - would probably be better to do this after the checks below.
+                moveNode = Node(currentNode, moveConfig, g_n, heuristic(moveConfig), currentNode.path + move)
 
                 addToOpen = True
                 # Don't add node to openlist if there is a shorter path to the same config 
