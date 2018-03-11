@@ -82,6 +82,9 @@ def moveCandy(move, currentGame):
     return gameCopy
 
 def heuristic(gameConfig):
+    # Use gc instead of 'gameConfig' because things are passed by reference
+    # and the 'dc' function will create a copy we can play with in the function
+    gc = dc(gameConfig)
     return 0 
 
 def outputGameInfo(gameCount, time, moves):
