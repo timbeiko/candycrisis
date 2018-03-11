@@ -45,21 +45,21 @@ def printBoard(currentGame):
         else:
             print currentGame[i] + " |",
 
+def boardAsString(currentGame):
+    s = ""
+    for i in range(0,15):
+        if i % 5 == 0:
+            s += "\n|"
+        if currentGame[i] == 'e': 
+            s += "  |"
+        else:
+            s += currentGame[i] + " |"
+    return s
+
 def validMove(move, currentGame):
     index = currentGame.index('e')
     emptyLetter = chr(index + 65)
     return (move in VALID_MOVES[emptyLetter])
-
-def outputGameInfo(gameCount, time, moves):
-    with open(output_file, "a") as f:
-        # Number of the game
-        f.write("Game " + str(gameCount) + "\n")
-        # Moves Played
-        for move in moves:
-            f.write(move)
-        f.write("\n")
-        # Time to complete 
-        f.write(str(time) + " seconds\n\n")
 
 def checkIfGameWon(currentGame):
     i = 0
@@ -83,6 +83,31 @@ def moveCandy(move, currentGame):
 
 def heuristic(gameConfig):
     return 0 
+
+def outputGameInfo(gameCount, time, moves):
+    with open(output_file, "a") as f:
+        # Number of the game
+        f.write("Game " + str(gameCount) + "\n")
+        # Moves Played
+        for move in moves:
+            f.write(move)
+        f.write("\n")
+        # Time to complete 
+        f.write(str(time) + " seconds\n\n")
+
+def outputGameMoves(gameCount, moves, currentGame):
+    moveFile = "game" + str(gameCount) + "moves.txt"
+    gameBoard = dc(currentGame)
+
+    with open(moveFile, "w") as f: 
+        f.write("Game " + str(gameCount) + "\n")
+        f.write("Initial Board:\n")
+        f.write(boardAsString(gameBoard) + "\n\n")
+
+        for move in moves: 
+            f.write(move)
+            gameBoard = moveCandy(move, gameBoard)
+            f.write(boardAsString(gameBoard) + "\n\n")
 
 def manual_mode():
     print "To choose your next move, simply type the letter corresponding to the candy you want to move in the empty space."
@@ -197,7 +222,7 @@ def automatic_mode():
 
                 totalMovesPlayed += len(currentNode.path)
                 outputGameInfo(gameCount, time.time() - startTime, currentNode.path)
-                # outputGameMoves(gameCount, currentNode.path, )
+                outputGameMoves(gameCount, currentNode.path, currentGame)
                 break 
 
             # Get letter corresponding to empty tile, and it's next moves            
