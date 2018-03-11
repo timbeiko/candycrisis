@@ -1,0 +1,13 @@
+Game 1
+GHMNOJ
+3.98373985291 seconds
+
+Game 2
+HIDCHINOJEDI
+13.0844390392 seconds
+
+Game 3
+HGFAGLMNOJ
+6.95156693459 seconds
+
+Total moves played: 28

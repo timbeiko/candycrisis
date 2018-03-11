@@ -95,6 +95,7 @@ def manual_mode():
 
     # MAIN GAME LOOP
     gameCount = 1
+    totalMovesPlayed = 0
     for gameConfig in INITIAL_GAME_CONFIGS:  # Iterate over all games in input file
     # Variables for the current game 
         startTime = time.time()
@@ -145,10 +146,14 @@ def manual_mode():
         # Clear screen 
         print(chr(27) + "[2J")
 
-    # End of current game 
-    print "\n"                              
-    outputGameInfo(gameCount, totalTime, movesPlayed) 
-    gameCount += 1
+        # End of current game 
+        print "\n"                              
+        outputGameInfo(gameCount, totalTime, movesPlayed) 
+        totalMovesPlayed += len(movesPlayed)
+        gameCount += 1
+
+    with open(output_file, "a") as f:
+        f.write("Total moves played: " + str(totalMovesPlayed))
     return True
 
 # Automatic Mode 
@@ -188,6 +193,7 @@ def automatic_mode():
                 print str(time.time() - startTime)
                 totalMovesPlayed += len(currentNode.path)
                 print
+                outputGameInfo(gameCount, time.time() - startTime, currentNode.path)
                 break 
             
             index = currentNode.config.index('e')
