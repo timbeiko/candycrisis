@@ -181,32 +181,34 @@ def automatic_mode():
         rootNode = Node(None, currentGame, 0, 0, "")
         openlist.append(rootNode)
 
+        # Loop until openlist is empty 
         while len(openlist) != 0: 
-            openlist = sorted(openlist, key=lambda n: n.F)
-            currentNode = openlist.pop(0)
+            openlist = sorted(openlist, key=lambda n: n.F) # Sort open list by f(n)
+            currentNode = openlist.pop(0) # Get lowest value of open list
 
             if checkIfGameWon(currentNode.config):
-                # TODO: move this to the output file 
                 print currentNode.path
                 printBoard(currentNode.config)
                 print
-                print str(time.time() - startTime)
-                totalMovesPlayed += len(currentNode.path)
+                print str(time.time() - startTime) + " seconds"
                 print
+
+                totalMovesPlayed += len(currentNode.path)
                 outputGameInfo(gameCount, time.time() - startTime, currentNode.path)
                 break 
-            
+
+            # Get letter corresponding to empty tile, and it's next moves            
             index = currentNode.config.index('e')
             emptyLetter = chr(index + 65)
             nextMoves = VALID_MOVES[emptyLetter]
 
+            # Iterate over possible next mvoes 
             for move in nextMoves: 
                 g_n = currentNode.G + 1 
-                moveConfig = moveCandy(move, currentNode.config)
+                moveConfig = moveCandy(move, currentNode.config) # Board after playing move 
                 moveNode = Node(currentNode, moveConfig, g_n, 0, currentNode.path + move)
 
                 addToOpen = True
-
                 # Don't add node to openlist if there is a shorter path to the same config 
                 if moveNode in openlist:
                     if moveNode.G <= g_n: 
@@ -226,7 +228,7 @@ def automatic_mode():
         # increment game count     
         gameCount += 1 
 
-    # Keep track of total moves played 
+    # Output total moves played 
     print totalMovesPlayed 
     with open(output_file, "a") as f:
         f.write("Total moves played: " + str(totalMovesPlayed))
