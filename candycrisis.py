@@ -228,6 +228,8 @@ def automatic_mode():
 
     # Keep track of total moves played 
     print totalMovesPlayed 
+    with open(output_file, "a") as f:
+        f.write("Total moves played: " + str(totalMovesPlayed))
 
 def main(): 
     # To clear the screen 
