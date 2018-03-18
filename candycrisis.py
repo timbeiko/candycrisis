@@ -85,7 +85,20 @@ def heuristic(gameConfig):
     # Use gc instead of 'gameConfig' because things are passed by reference
     # and the 'dc' function will create a copy we can play with in the function
     gc = dc(gameConfig)
-    return 0 
+
+    # Heuristic 0: return 0
+    # return 0 
+
+    # Heuristic 1: return the negative of the number of matching candies 
+    i = 0 
+    j = 10 
+    match = 0 
+    while i < 5: 
+        if gc[i] == gc[j]:
+            match += 1 
+        i += 1 
+        j += 1  
+    return match * -1.0 
 
 def outputGameInfo(gameCount, time, moves):
     with open(output_file, "a") as f:

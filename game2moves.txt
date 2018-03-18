@@ -5,63 +5,63 @@ Initial Board:
 |r |r |b |b |b |
 |b |r |  |r |r |
 
-H
+N
 |b |r |b |w |w |
-|r |r |  |b |b |
-|b |r |b |r |r |
+|r |r |b |b |b |
+|b |r |r |  |r |
 
 I
 |b |r |b |w |w |
 |r |r |b |  |b |
-|b |r |b |r |r |
+|b |r |r |b |r |
 
 D
 |b |r |b |  |w |
 |r |r |b |w |b |
-|b |r |b |r |r |
-
-C
-|b |r |  |b |w |
-|r |r |b |w |b |
-|b |r |b |r |r |
-
-H
-|b |r |b |b |w |
-|r |r |  |w |b |
-|b |r |b |r |r |
-
-I
-|b |r |b |b |w |
-|r |r |w |  |b |
-|b |r |b |r |r |
-
-N
-|b |r |b |b |w |
-|r |r |w |r |b |
-|b |r |b |  |r |
-
-O
-|b |r |b |b |w |
-|r |r |w |r |b |
-|b |r |b |r |  |
-
-J
-|b |r |b |b |w |
-|r |r |w |r |  |
-|b |r |b |r |b |
+|b |r |r |b |r |
 
 E
-|b |r |b |b |  |
-|r |r |w |r |w |
-|b |r |b |r |b |
+|b |r |b |w |  |
+|r |r |b |w |b |
+|b |r |r |b |r |
 
-D
-|b |r |b |  |b |
-|r |r |w |r |w |
-|b |r |b |r |b |
+J
+|b |r |b |w |b |
+|r |r |b |w |  |
+|b |r |r |b |r |
+
+O
+|b |r |b |w |b |
+|r |r |b |w |r |
+|b |r |r |b |  |
+
+N
+|b |r |b |w |b |
+|r |r |b |w |r |
+|b |r |r |  |b |
 
 I
-|b |r |b |r |b |
-|r |r |w |  |w |
-|b |r |b |r |b |
+|b |r |b |w |b |
+|r |r |b |  |r |
+|b |r |r |w |b |
+
+H
+|b |r |b |w |b |
+|r |r |  |b |r |
+|b |r |r |w |b |
+
+C
+|b |r |  |w |b |
+|r |r |b |b |r |
+|b |r |r |w |b |
+
+B
+|b |  |r |w |b |
+|r |r |b |b |r |
+|b |r |r |w |b |
+
+G
+|b |r |r |w |b |
+|r |  |b |b |r |
+|b |r |r |w |b |
 
