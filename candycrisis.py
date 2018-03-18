@@ -89,7 +89,7 @@ def heuristic(gameConfig):
     # Heuristic 0: return 0
     # return 0 
 
-    # Heuristic 1: return the negative of the number of matching candies 
+    # Heuristic 1: return the 5 minus the number of matching candies in rows 1 & 3 
     i = 0 
     j = 10 
     match = 0 
@@ -251,23 +251,28 @@ def automatic_mode():
                 g_n = currentNode.G + 1 
                 moveConfig = moveCandy(move, currentNode.config) # Board after playing move 
 
-                # Create node for move - would probably be better to do this after the checks below.
-                moveNode = Node(currentNode, moveConfig, g_n, heuristic(moveConfig), currentNode.path + move)
+                addToOpen = True 
+                checkClosedList = True 
 
-                addToOpen = True
-                # Don't add node to openlist if there is a shorter path to the same config 
-                if moveNode in openlist:
-                    if moveNode.G <= g_n: 
-                        addToOpen = False 
+                # Don't add if in openlist with <= G(n)
+                for node in openlist: 
+                    if node.config == moveConfig: 
+                        if node.G <= g_n: 
+                            addToOpen = False 
+                            checkClosedList = False 
+                            break 
 
-                # Don't add a node to the closed list if we've visited the same config 
-                # from a shorter path before 
-                if moveNode in closedlist:
-                    if moveNode.G <= g_n: 
-                        addToOpen = False 
+                # Don't add if in closedlist with <= G(n)
+                if checkClosedList:
+                    for node in closedlist: 
+                        if node.config == moveConfig: 
+                            if node.G <= g_n: 
+                                addToOpen = False 
+                                break 
 
                 # Add to open list if none of the two conditions above apply 
                 if addToOpen: 
+                    moveNode = Node(currentNode, moveConfig, g_n, heuristic(moveConfig), currentNode.path + move)
                     openlist.append(moveNode)
             closedlist.append(currentNode)
 
