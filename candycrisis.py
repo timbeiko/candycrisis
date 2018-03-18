@@ -98,7 +98,7 @@ def heuristic(gameConfig):
             match += 1 
         i += 1 
         j += 1  
-    return match * -1.0 
+    return 5 - match 
 
 def outputGameInfo(gameCount, time, moves):
     with open(output_file, "a") as f:

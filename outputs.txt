@@ -1,13 +1,13 @@
 Game 1
 GHMNOJ
-0.00291514396667 seconds
+0.0028018951416 seconds
 
 Game 2
 NIDEJONIHCBG
-2.19755792618 seconds
+2.18381404877 seconds
 
 Game 3
 HGFAGLMNOJ
-0.233418941498 seconds
+0.229202032089 seconds
 
 Total moves played: 28
