@@ -201,13 +201,14 @@ def manual_mode():
 
 def automatic_mode():
     # Get initial configurations from the input file 
-    readConfigs('inputs.txt') 
+    readConfigs('novice_inputs.txt') 
     # Clear output file from previous games 
     open(output_file, "w")
 
     # MAIN GAME LOOP
     gameCount = 1
     totalMovesPlayed = 0
+    startOfAllGames = time.time()
     for gameConfig in INITIAL_GAME_CONFIGS:  # Iterate over all games in input file
         print "Game " + str(gameCount)
 
@@ -278,10 +279,15 @@ def automatic_mode():
         # increment game count     
         gameCount += 1 
 
-    # Output total moves played 
+    # Output total moves played and total time taken
+    totalTimeTaken = time.time() - startOfAllGames
     print totalMovesPlayed 
+    print totalTimeTaken
+
     with open(output_file, "a") as f:
         f.write("Total moves played: " + str(totalMovesPlayed))
+        f.write("Total time taken: " + str(totalTimeTaken))
+
 
 def main(): 
     # To clear the screen 
