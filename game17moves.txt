@@ -1,87 +1,97 @@
 Game 17
 Initial Board:
 
+|r |b |w |r |  |
 |b |r |b |r |r |
-|r |b |r |  |w |
-|b |y |w |r |y |
+|b |b |r |b |w |
 
-H
+D
+|r |b |w |  |r |
 |b |r |b |r |r |
-|r |b |  |r |w |
-|b |y |w |r |y |
+|b |b |r |b |w |
+
+I
+|r |b |w |r |r |
+|b |r |b |  |r |
+|b |b |r |b |w |
+
+N
+|r |b |w |r |r |
+|b |r |b |b |r |
+|b |b |r |  |w |
 
 M
+|r |b |w |r |r |
+|b |r |b |b |r |
+|b |b |  |r |w |
+
+H
+|r |b |w |r |r |
+|b |r |  |b |r |
+|b |b |b |r |w |
+
+I
+|r |b |w |r |r |
+|b |r |b |  |r |
+|b |b |b |r |w |
+
+J
+|r |b |w |r |r |
+|b |r |b |r |  |
+|b |b |b |r |w |
+
+O
+|r |b |w |r |r |
+|b |r |b |r |w |
+|b |b |b |r |  |
+
+N
+|r |b |w |r |r |
+|b |r |b |r |w |
+|b |b |b |  |r |
+
+I
+|r |b |w |r |r |
+|b |r |b |  |w |
+|b |b |b |r |r |
+
+H
+|r |b |w |r |r |
+|b |r |  |b |w |
+|b |b |b |r |r |
+
+C
+|r |b |  |r |r |
+|b |r |w |b |w |
+|b |b |b |r |r |
+
+B
+|r |  |b |r |r |
+|b |r |w |b |w |
+|b |b |b |r |r |
+
+A
+|  |r |b |r |r |
+|b |r |w |b |w |
+|b |b |b |r |r |
+
+F
 |b |r |b |r |r |
-|r |b |w |r |w |
-|b |y |  |r |y |
+|  |r |w |b |w |
+|b |b |b |r |r |
+
+K
+|b |r |b |r |r |
+|b |r |w |b |w |
+|  |b |b |r |r |
 
 L
 |b |r |b |r |r |
-|r |b |w |r |w |
-|b |  |y |r |y |
+|b |r |w |b |w |
+|b |  |b |r |r |
 
 G
 |b |r |b |r |r |
-|r |  |w |r |w |
-|b |b |y |r |y |
-
-B
-|b |  |b |r |r |
-|r |r |w |r |w |
-|b |b |y |r |y |
-
-C
-|b |b |  |r |r |
-|r |r |w |r |w |
-|b |b |y |r |y |
-
-H
-|b |b |w |r |r |
-|r |r |  |r |w |
-|b |b |y |r |y |
-
-I
-|b |b |w |r |r |
-|r |r |r |  |w |
-|b |b |y |r |y |
-
-J
-|b |b |w |r |r |
-|r |r |r |w |  |
-|b |b |y |r |y |
-
-O
-|b |b |w |r |r |
-|r |r |r |w |y |
-|b |b |y |r |  |
-
-N
-|b |b |w |r |r |
-|r |r |r |w |y |
-|b |b |y |  |r |
-
-I
-|b |b |w |r |r |
-|r |r |r |  |y |
-|b |b |y |w |r |
-
-H
-|b |b |w |r |r |
-|r |r |  |r |y |
-|b |b |y |w |r |
-
-M
-|b |b |w |r |r |
-|r |r |y |r |y |
-|b |b |  |w |r |
-
-N
-|b |b |w |r |r |
-|r |r |y |r |y |
-|b |b |w |  |r |
-
-I
-|b |b |w |r |r |
-|r |r |y |  |y |
-|b |b |w |r |r |
+|b |  |w |b |w |
+|b |r |b |r |r |
 

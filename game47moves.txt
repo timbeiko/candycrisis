@@ -1,87 +1,52 @@
 Game 47
 Initial Board:
 
-|b |y |r |  |w |
-|y |r |w |r |b |
-|b |b |r |r |r |
+|w |r |r |b |b |
+|r |b |r |b |r |
+|b |  |w |r |b |
+
+M
+|w |r |r |b |b |
+|r |b |r |b |r |
+|b |w |  |r |b |
+
+N
+|w |r |r |b |b |
+|r |b |r |b |r |
+|b |w |r |  |b |
 
 I
-|b |y |r |r |w |
-|y |r |w |  |b |
-|b |b |r |r |r |
+|w |r |r |b |b |
+|r |b |r |  |r |
+|b |w |r |b |b |
 
 H
-|b |y |r |r |w |
-|y |r |  |w |b |
-|b |b |r |r |r |
+|w |r |r |b |b |
+|r |b |  |r |r |
+|b |w |r |b |b |
 
 G
-|b |y |r |r |w |
-|y |  |r |w |b |
-|b |b |r |r |r |
+|w |r |r |b |b |
+|r |  |b |r |r |
+|b |w |r |b |b |
 
 F
-|b |y |r |r |w |
-|  |y |r |w |b |
-|b |b |r |r |r |
+|w |r |r |b |b |
+|  |r |b |r |r |
+|b |w |r |b |b |
 
 K
-|b |y |r |r |w |
-|b |y |r |w |b |
-|  |b |r |r |r |
+|w |r |r |b |b |
+|b |r |b |r |r |
+|  |w |r |b |b |
 
 L
-|b |y |r |r |w |
-|b |y |r |w |b |
-|b |  |r |r |r |
+|w |r |r |b |b |
+|b |r |b |r |r |
+|w |  |r |b |b |
 
 G
-|b |y |r |r |w |
-|b |  |r |w |b |
-|b |y |r |r |r |
-
-H
-|b |y |r |r |w |
-|b |r |  |w |b |
-|b |y |r |r |r |
-
-M
-|b |y |r |r |w |
-|b |r |r |w |b |
-|b |y |  |r |r |
-
-N
-|b |y |r |r |w |
-|b |r |r |w |b |
-|b |y |r |  |r |
-
-I
-|b |y |r |r |w |
-|b |r |r |  |b |
-|b |y |r |w |r |
-
-J
-|b |y |r |r |w |
-|b |r |r |b |  |
-|b |y |r |w |r |
-
-O
-|b |y |r |r |w |
-|b |r |r |b |r |
-|b |y |r |w |  |
-
-N
-|b |y |r |r |w |
-|b |r |r |b |r |
-|b |y |r |  |w |
-
-M
-|b |y |r |r |w |
-|b |r |r |b |r |
-|b |y |  |r |w |
-
-H
-|b |y |r |r |w |
-|b |r |  |b |r |
-|b |y |r |r |w |
+|w |r |r |b |b |
+|b |  |b |r |r |
+|w |r |r |b |b |
 

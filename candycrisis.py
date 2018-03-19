@@ -227,7 +227,7 @@ def manual_mode():
 
 def automatic_mode():
     # Get initial configurations from the input file 
-    readConfigs('master_inputs.txt') 
+    readConfigs('novice_inputs.txt') 
     # Clear output file from previous games 
     open(output_file, "w")
 
@@ -280,13 +280,14 @@ def automatic_mode():
                 addToOpen = True 
                 checkClosedList = True 
 
+                # COMMENTED THIS OUT: it actually slows things down! 
                 # Don't add if in openlist with <= G(n)
-                for node in openlist: 
-                    if node.config == moveConfig: 
-                        if node.G <= g_n: 
-                            addToOpen = False 
-                            checkClosedList = False 
-                            break 
+                # for node in openlist: 
+                #     if node.config == moveConfig: 
+                #         if node.G <= g_n: 
+                #             addToOpen = False 
+                #             checkClosedList = False 
+                #             break 
 
                 # Don't add if in closedlist with <= G(n)
                 if checkClosedList:

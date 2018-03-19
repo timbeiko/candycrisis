@@ -7,13 +7,13 @@ To run this on the lab machines at Concordia (Linux) you will need to run the fo
 
 ### Third deliverable (Mar. 29)
 Novice: 10 seconds for 50 puzzles
-  - [x] Current best: Heuristic 3: 1.03053212166 secs 
+  - [x] Current best: Heuristic 3: 0.969126939774 secs 
 Apprentice: 12 seconds for 50 puzzles
-  - [ ] Current best: Heurstic 3: 13.0037589073 secs 
+  - [x] Current best: Heurstic 3: 2.86068296432 secs 
 Expert: 30 seconds for 30 puzzles
-  - [ ] Current best: Heuristic 3: 43.5458259583 secs
+  - [x] Current best: Heuristic 3: 2.81453013423 secs
 Master: 20 seconds for 10 puzzles
-  - [x] Current best: Heuristic 3: 6.76701188087 secs 
+  - [x] Current best: Heuristic 3: 5.00174188614 secs 
 
 ### Second deliverable (Mar. 15)
 Automatic Mode

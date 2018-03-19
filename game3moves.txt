@@ -1,147 +1,47 @@
 Game 3
 Initial Board:
 
-|g |g |r |p |b |
-|p |w |r |r |w |
-|  |b |r |y |y |
-
-F
-|g |g |r |p |b |
-|  |w |r |r |w |
-|p |b |r |y |y |
-
-A
-|  |g |r |p |b |
-|g |w |r |r |w |
-|p |b |r |y |y |
-
-G
-|w |g |r |p |b |
-|g |  |r |r |w |
-|p |b |r |y |y |
-
-L
-|w |g |r |p |b |
-|g |b |r |r |w |
-|p |  |r |y |y |
-
-K
-|w |g |r |p |b |
-|g |b |r |r |w |
-|  |p |r |y |y |
-
-F
-|w |g |r |p |b |
-|  |b |r |r |w |
-|g |p |r |y |y |
-
-A
-|  |g |r |p |b |
-|w |b |r |r |w |
-|g |p |r |y |y |
-
-B
-|g |  |r |p |b |
-|w |b |r |r |w |
-|g |p |r |y |y |
+|b |r |b |  |b |
+|r |w |r |b |r |
+|r |r |w |b |b |
 
 C
-|g |r |  |p |b |
-|w |b |r |r |w |
-|g |p |r |y |y |
+|b |r |  |b |b |
+|r |w |r |b |r |
+|r |r |w |b |b |
 
 H
-|g |r |r |p |b |
-|w |b |  |r |w |
-|g |p |r |y |y |
-
-I
-|g |r |r |p |b |
-|w |b |r |  |w |
-|g |p |r |y |y |
-
-J
-|g |r |r |p |b |
-|w |b |r |w |  |
-|g |p |r |y |y |
-
-O
-|g |r |r |p |b |
-|w |b |r |w |y |
-|g |p |r |y |  |
-
-N
-|g |r |r |p |b |
-|w |b |r |w |y |
-|g |p |r |  |y |
-
-I
-|g |r |r |p |b |
-|w |b |r |  |y |
-|g |p |r |w |y |
-
-D
-|g |r |r |  |b |
-|w |b |r |p |y |
-|g |p |r |w |y |
-
-E
-|g |r |r |b |  |
-|w |b |r |p |y |
-|g |p |r |w |y |
-
-J
-|g |r |r |b |y |
-|w |b |r |p |  |
-|g |p |r |w |y |
-
-I
-|g |r |r |b |y |
-|w |b |r |  |p |
-|g |p |r |w |y |
-
-H
-|g |r |r |b |y |
-|w |b |  |r |p |
-|g |p |r |w |y |
+|b |r |r |b |b |
+|r |w |  |b |r |
+|r |r |w |b |b |
 
 G
-|g |r |r |b |y |
-|w |  |b |r |p |
-|g |p |r |w |y |
+|b |r |r |b |b |
+|r |  |w |b |r |
+|r |r |w |b |b |
 
-L
-|g |r |r |b |y |
-|w |p |b |r |p |
-|g |  |r |w |y |
+F
+|b |r |r |b |b |
+|  |r |w |b |r |
+|r |r |w |b |b |
 
-M
-|g |r |r |b |y |
-|w |p |b |r |p |
-|g |r |  |w |y |
+A
+|  |r |r |b |b |
+|b |r |w |b |r |
+|r |r |w |b |b |
 
-H
-|g |r |r |b |y |
-|w |p |  |r |p |
-|g |r |b |w |y |
+B
+|r |  |r |b |b |
+|b |r |w |b |r |
+|r |r |w |b |b |
 
-I
-|g |r |r |b |y |
-|w |p |r |  |p |
-|g |r |b |w |y |
-
-N
-|g |r |r |b |y |
-|w |p |r |w |p |
-|g |r |b |  |y |
-
-M
-|g |r |r |b |y |
-|w |p |r |w |p |
-|g |r |  |b |y |
+C
+|r |r |  |b |b |
+|b |r |w |b |r |
+|r |r |w |b |b |
 
 H
-|g |r |r |b |y |
-|w |p |  |w |p |
-|g |r |r |b |y |
+|r |r |w |b |b |
+|b |r |  |b |r |
+|r |r |w |b |b |
 

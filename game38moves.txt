@@ -1,132 +1,67 @@
 Game 38
 Initial Board:
 
-|b |r |r |r |r |
-|w |b |b |y |b |
-|y |r |w |r |  |
+|r |r |b |b |r |
+|r |r |b |w |b |
+|r |b |b |w |  |
 
 N
-|b |r |r |r |r |
-|w |b |b |y |b |
-|y |r |w |  |r |
+|r |r |b |b |r |
+|r |r |b |w |b |
+|r |b |b |  |w |
 
 M
-|b |r |r |r |r |
-|w |b |b |y |b |
-|y |r |  |w |r |
+|r |r |b |b |r |
+|r |r |b |w |b |
+|r |b |  |b |w |
 
 L
-|b |r |r |r |r |
-|w |b |b |y |b |
-|y |  |r |w |r |
+|r |r |b |b |r |
+|r |r |b |w |b |
+|r |  |b |b |w |
 
 G
-|b |r |r |r |r |
-|w |  |b |y |b |
-|y |b |r |w |r |
-
-F
-|b |r |r |r |r |
-|  |w |b |y |b |
-|y |b |r |w |r |
-
-K
-|b |r |r |r |r |
-|y |w |b |y |b |
-|  |b |r |w |r |
-
-L
-|b |r |r |r |r |
-|y |w |b |y |b |
-|b |  |r |w |r |
-
-G
-|b |r |r |r |r |
-|y |  |b |y |b |
-|b |w |r |w |r |
+|r |r |b |b |r |
+|r |  |b |w |b |
+|r |r |b |b |w |
 
 H
-|b |r |r |r |r |
-|y |b |  |y |b |
-|b |w |r |w |r |
-
-I
-|b |r |r |r |r |
-|y |b |y |  |b |
-|b |w |r |w |r |
-
-N
-|b |r |r |r |r |
-|y |b |y |w |b |
-|b |w |r |  |r |
-
-M
-|b |r |r |r |r |
-|y |b |y |w |b |
-|b |w |  |r |r |
-
-H
-|b |r |r |r |r |
-|y |b |  |w |b |
-|b |w |y |r |r |
+|r |r |b |b |r |
+|r |b |  |w |b |
+|r |r |b |b |w |
 
 C
-|b |r |  |r |r |
-|y |b |r |w |b |
-|b |w |y |r |r |
+|r |r |  |b |r |
+|r |b |b |w |b |
+|r |r |b |b |w |
 
-B
-|b |  |r |r |r |
-|y |b |r |w |b |
-|b |w |y |r |r |
+D
+|r |r |b |  |r |
+|r |b |b |w |b |
+|r |r |b |b |w |
 
-G
-|b |b |r |r |r |
-|y |  |r |w |b |
-|b |w |y |r |r |
+I
+|r |r |b |w |r |
+|r |b |b |  |b |
+|r |r |b |b |w |
 
-L
-|b |b |r |r |r |
-|y |w |r |w |b |
-|b |  |y |r |r |
+J
+|r |r |b |w |r |
+|r |b |b |b |  |
+|r |r |b |b |w |
 
-M
-|b |b |r |r |r |
-|y |w |r |w |b |
-|b |y |  |r |r |
+E
+|r |r |b |w |  |
+|r |b |b |b |r |
+|r |r |b |b |w |
 
-H
-|b |b |r |r |r |
-|y |w |  |w |b |
-|b |y |r |r |r |
+D
+|r |r |b |  |w |
+|r |b |b |b |r |
+|r |r |b |b |w |
 
-G
-|b |b |r |r |r |
-|y |  |w |w |b |
-|b |y |r |r |r |
-
-L
-|b |b |r |r |r |
-|y |y |w |w |b |
-|b |  |r |r |r |
-
-K
-|b |b |r |r |r |
-|y |y |w |w |b |
-|  |b |r |r |r |
-
-F
-|b |b |r |r |r |
-|  |y |w |w |b |
-|y |b |r |r |r |
-
-A
-|  |b |r |r |r |
-|b |y |w |w |b |
-|y |b |r |r |r |
-
-G
-|y |b |r |r |r |
-|b |  |w |w |b |
-|y |b |r |r |r |
+I
+|r |r |b |b |w |
+|r |b |b |  |r |
+|r |r |b |b |w |
 

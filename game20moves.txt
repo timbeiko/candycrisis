@@ -1,112 +1,57 @@
 Game 20
 Initial Board:
 
-|r |w |b |y |  |
-|r |b |w |r |b |
-|y |r |b |r |r |
+|b |r |  |w |b |
+|r |b |b |r |r |
+|b |w |r |r |b |
 
 D
-|r |w |b |  |y |
-|r |b |w |r |b |
-|y |r |b |r |r |
+|b |r |w |  |b |
+|r |b |b |r |r |
+|b |w |r |r |b |
 
 I
-|r |w |b |r |y |
-|r |b |w |  |b |
-|y |r |b |r |r |
+|b |r |w |r |b |
+|r |b |b |  |r |
+|b |w |r |r |b |
 
 H
-|r |w |b |r |y |
-|r |b |  |w |b |
-|y |r |b |r |r |
+|b |r |w |r |b |
+|r |b |  |b |r |
+|b |w |r |r |b |
+
+M
+|b |r |w |r |b |
+|r |b |r |b |r |
+|b |w |  |r |b |
+
+L
+|b |r |w |r |b |
+|r |b |r |b |r |
+|b |  |w |r |b |
 
 G
-|r |w |b |r |y |
-|r |  |b |w |b |
-|y |r |b |r |r |
+|b |r |w |r |b |
+|r |  |r |b |r |
+|b |b |w |r |b |
 
 F
-|r |w |b |r |y |
-|  |r |b |w |b |
-|y |r |b |r |r |
+|b |r |w |r |b |
+|  |r |r |b |r |
+|b |b |w |r |b |
 
 K
-|r |w |b |r |y |
-|y |r |b |w |b |
-|  |r |b |r |r |
+|b |r |w |r |b |
+|b |r |r |b |r |
+|  |b |w |r |b |
 
 L
-|r |w |b |r |y |
-|y |r |b |w |b |
-|r |  |b |r |r |
+|b |r |w |r |b |
+|b |r |r |b |r |
+|b |  |w |r |b |
 
 G
-|r |w |b |r |y |
-|y |  |b |w |b |
-|r |r |b |r |r |
-
-H
-|r |w |b |r |y |
-|y |b |  |w |b |
-|r |r |b |r |r |
-
-I
-|r |w |b |r |y |
-|y |b |w |  |b |
-|r |r |b |r |r |
-
-J
-|r |w |b |r |y |
-|y |b |w |b |  |
-|r |r |b |r |r |
-
-E
-|r |w |b |r |  |
-|y |b |w |b |y |
-|r |r |b |r |r |
-
-D
-|r |w |b |  |r |
-|y |b |w |b |y |
-|r |r |b |r |r |
-
-I
-|r |w |b |b |r |
-|y |b |w |  |y |
-|r |r |b |r |r |
-
-N
-|r |w |b |b |r |
-|y |b |w |r |y |
-|r |r |b |  |r |
-
-M
-|r |w |b |b |r |
-|y |b |w |r |y |
-|r |r |  |b |r |
-
-H
-|r |w |b |b |r |
-|y |b |  |r |y |
-|r |r |w |b |r |
-
-G
-|r |w |b |b |r |
-|y |  |b |r |y |
-|r |r |w |b |r |
-
-L
-|r |w |b |b |r |
-|y |r |b |r |y |
-|r |  |w |b |r |
-
-M
-|r |w |b |b |r |
-|y |r |b |r |y |
-|r |w |  |b |r |
-
-H
-|r |w |b |b |r |
-|y |r |  |r |y |
-|r |w |b |b |r |
+|b |r |w |r |b |
+|b |  |r |b |r |
+|b |r |w |r |b |
 

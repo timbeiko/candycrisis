@@ -1,107 +1,72 @@
 Game 19
 Initial Board:
 
-|r |r |b |  |b |
-|w |r |r |b |w |
-|y |b |r |r |y |
+|b |b |b |r |  |
+|w |b |r |b |w |
+|r |r |r |b |r |
+
+D
+|b |b |b |  |r |
+|w |b |r |b |w |
+|r |r |r |b |r |
 
 C
-|r |r |  |b |b |
-|w |r |r |b |w |
-|y |b |r |r |y |
+|b |b |  |b |r |
+|w |b |r |b |w |
+|r |r |r |b |r |
+
+H
+|b |b |r |b |r |
+|w |b |  |b |w |
+|r |r |r |b |r |
+
+G
+|b |b |r |b |r |
+|w |  |b |b |w |
+|r |r |r |b |r |
 
 B
-|r |  |r |b |b |
-|w |r |r |b |w |
-|y |b |r |r |y |
+|b |  |r |b |r |
+|w |b |b |b |w |
+|r |r |r |b |r |
 
-G
-|r |r |r |b |b |
-|w |  |r |b |w |
-|y |b |r |r |y |
-
-L
-|r |r |r |b |b |
-|w |b |r |b |w |
-|y |  |r |r |y |
-
-M
-|r |r |r |b |b |
-|w |b |r |b |w |
-|y |r |  |r |y |
-
-N
-|r |r |r |b |b |
-|w |b |r |b |w |
-|y |r |r |  |y |
-
-I
-|r |r |r |b |b |
-|w |b |r |  |w |
-|y |r |r |b |y |
-
-H
-|r |r |r |b |b |
-|w |b |  |r |w |
-|y |r |r |b |y |
-
-G
-|r |r |r |b |b |
-|w |  |b |r |w |
-|y |r |r |b |y |
+A
+|  |b |r |b |r |
+|w |b |b |b |w |
+|r |r |r |b |r |
 
 F
-|r |r |r |b |b |
-|  |w |b |r |w |
-|y |r |r |b |y |
+|w |b |r |b |r |
+|  |b |b |b |w |
+|r |r |r |b |r |
 
 K
-|r |r |r |b |b |
-|y |w |b |r |w |
-|  |r |r |b |y |
+|w |b |r |b |r |
+|r |b |b |b |w |
+|  |r |r |b |r |
 
 L
-|r |r |r |b |b |
-|y |w |b |r |w |
-|r |  |r |b |y |
+|w |b |r |b |r |
+|r |b |b |b |w |
+|r |  |r |b |r |
 
-M
-|r |r |r |b |b |
-|y |w |b |r |w |
-|r |r |  |b |y |
+G
+|w |b |r |b |r |
+|r |  |b |b |w |
+|r |b |r |b |r |
 
-H
-|r |r |r |b |b |
-|y |w |  |r |w |
-|r |r |b |b |y |
+F
+|w |b |r |b |r |
+|  |r |b |b |w |
+|r |b |r |b |r |
 
-I
-|r |r |r |b |b |
-|y |w |r |  |w |
-|r |r |b |b |y |
+A
+|  |b |r |b |r |
+|w |r |b |b |w |
+|r |b |r |b |r |
 
-J
-|r |r |r |b |b |
-|y |w |r |w |  |
-|r |r |b |b |y |
-
-O
-|r |r |r |b |b |
-|y |w |r |w |y |
-|r |r |b |b |  |
-
-N
-|r |r |r |b |b |
-|y |w |r |w |y |
-|r |r |b |  |b |
-
-M
-|r |r |r |b |b |
-|y |w |r |w |y |
-|r |r |  |b |b |
-
-H
-|r |r |r |b |b |
-|y |w |  |w |y |
-|r |r |r |b |b |
+G
+|r |b |r |b |r |
+|w |  |b |b |w |
+|r |b |r |b |r |
 
