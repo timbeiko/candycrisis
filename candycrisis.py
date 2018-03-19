@@ -227,7 +227,7 @@ def manual_mode():
 
 def automatic_mode():
     # Get initial configurations from the input file 
-    readConfigs('novice_inputs.txt') 
+    readConfigs('master_inputs.txt') 
     # Clear output file from previous games 
     open(output_file, "w")
 
