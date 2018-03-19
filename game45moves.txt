@@ -1,0 +1,72 @@
+Game 45
+Initial Board:
+
+|r |y |r |b |b |
+|y |r |b |  |r |
+|w |r |b |w |r |
+
+N
+|r |y |r |b |b |
+|y |r |b |w |r |
+|w |r |b |  |r |
+
+M
+|r |y |r |b |b |
+|y |r |b |w |r |
+|w |r |  |b |r |
+
+L
+|r |y |r |b |b |
+|y |r |b |w |r |
+|w |  |r |b |r |
+
+G
+|r |y |r |b |b |
+|y |  |b |w |r |
+|w |r |r |b |r |
+
+F
+|r |y |r |b |b |
+|  |y |b |w |r |
+|w |r |r |b |r |
+
+K
+|r |y |r |b |b |
+|w |y |b |w |r |
+|  |r |r |b |r |
+
+L
+|r |y |r |b |b |
+|w |y |b |w |r |
+|r |  |r |b |r |
+
+G
+|r |y |r |b |b |
+|w |  |b |w |r |
+|r |y |r |b |r |
+
+H
+|r |y |r |b |b |
+|w |b |  |w |r |
+|r |y |r |b |r |
+
+I
+|r |y |r |b |b |
+|w |b |w |  |r |
+|r |y |r |b |r |
+
+D
+|r |y |r |  |b |
+|w |b |w |b |r |
+|r |y |r |b |r |
+
+E
+|r |y |r |b |  |
+|w |b |w |b |r |
+|r |y |r |b |r |
+
+J
+|r |y |r |b |r |
+|w |b |w |b |  |
+|r |y |r |b |r |
+

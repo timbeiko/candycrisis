@@ -1,0 +1,72 @@
+Game 48
+Initial Board:
+
+|b |r |b |r |r |
+|r |  |y |y |b |
+|w |b |w |r |r |
+
+B
+|b |  |b |r |r |
+|r |r |y |y |b |
+|w |b |w |r |r |
+
+A
+|  |b |b |r |r |
+|r |r |y |y |b |
+|w |b |w |r |r |
+
+G
+|r |b |b |r |r |
+|r |  |y |y |b |
+|w |b |w |r |r |
+
+H
+|r |b |b |r |r |
+|r |y |  |y |b |
+|w |b |w |r |r |
+
+M
+|r |b |b |r |r |
+|r |y |w |y |b |
+|w |b |  |r |r |
+
+L
+|r |b |b |r |r |
+|r |y |w |y |b |
+|w |  |b |r |r |
+
+K
+|r |b |b |r |r |
+|r |y |w |y |b |
+|  |w |b |r |r |
+
+F
+|r |b |b |r |r |
+|  |y |w |y |b |
+|r |w |b |r |r |
+
+G
+|r |b |b |r |r |
+|y |  |w |y |b |
+|r |w |b |r |r |
+
+H
+|r |b |b |r |r |
+|y |w |  |y |b |
+|r |w |b |r |r |
+
+C
+|r |b |  |r |r |
+|y |w |b |y |b |
+|r |w |b |r |r |
+
+B
+|r |  |b |r |r |
+|y |w |b |y |b |
+|r |w |b |r |r |
+
+G
+|r |w |b |r |r |
+|y |  |b |y |b |
+|r |w |b |r |r |
+

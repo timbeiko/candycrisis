@@ -1,0 +1,42 @@
+Game 21
+Initial Board:
+
+|r |y |b |b |r |
+|w |r |r |r |b |
+|r |  |y |b |w |
+
+M
+|r |y |b |b |r |
+|w |r |r |r |b |
+|r |y |  |b |w |
+
+N
+|r |y |b |b |r |
+|w |r |r |r |b |
+|r |y |b |  |w |
+
+I
+|r |y |b |b |r |
+|w |r |r |  |b |
+|r |y |b |r |w |
+
+J
+|r |y |b |b |r |
+|w |r |r |b |  |
+|r |y |b |r |w |
+
+O
+|r |y |b |b |r |
+|w |r |r |b |w |
+|r |y |b |r |  |
+
+N
+|r |y |b |b |r |
+|w |r |r |b |w |
+|r |y |b |  |r |
+
+I
+|r |y |b |b |r |
+|w |r |r |  |w |
+|r |y |b |b |r |
+

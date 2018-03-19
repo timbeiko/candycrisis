@@ -1,0 +1,92 @@
+Game 25
+Initial Board:
+
+|r |b |  |r |b |
+|r |w |b |r |b |
+|y |y |r |w |r |
+
+D
+|r |b |r |  |b |
+|r |w |b |r |b |
+|y |y |r |w |r |
+
+I
+|r |b |r |r |b |
+|r |w |b |  |b |
+|y |y |r |w |r |
+
+N
+|r |b |r |r |b |
+|r |w |b |w |b |
+|y |y |r |  |r |
+
+O
+|r |b |r |r |b |
+|r |w |b |w |b |
+|y |y |r |r |  |
+
+J
+|r |b |r |r |b |
+|r |w |b |w |  |
+|y |y |r |r |b |
+
+I
+|r |b |r |r |b |
+|r |w |b |  |w |
+|y |y |r |r |b |
+
+H
+|r |b |r |r |b |
+|r |w |  |b |w |
+|y |y |r |r |b |
+
+G
+|r |b |r |r |b |
+|r |  |w |b |w |
+|y |y |r |r |b |
+
+L
+|r |b |r |r |b |
+|r |y |w |b |w |
+|y |  |r |r |b |
+
+K
+|r |b |r |r |b |
+|r |y |w |b |w |
+|  |y |r |r |b |
+
+F
+|r |b |r |r |b |
+|  |y |w |b |w |
+|r |y |r |r |b |
+
+A
+|  |b |r |r |b |
+|r |y |w |b |w |
+|r |y |r |r |b |
+
+B
+|b |  |r |r |b |
+|r |y |w |b |w |
+|r |y |r |r |b |
+
+G
+|b |y |r |r |b |
+|r |  |w |b |w |
+|r |y |r |r |b |
+
+F
+|b |y |r |r |b |
+|  |r |w |b |w |
+|r |y |r |r |b |
+
+A
+|  |y |r |r |b |
+|b |r |w |b |w |
+|r |y |r |r |b |
+
+G
+|r |y |r |r |b |
+|b |  |w |b |w |
+|r |y |r |r |b |
+

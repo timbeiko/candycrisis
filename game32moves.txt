@@ -1,0 +1,47 @@
+Game 32
+Initial Board:
+
+|y |w |r |b |r |
+|b |b |y |w |r |
+|  |r |b |r |r |
+
+F
+|y |w |r |b |r |
+|  |b |y |w |r |
+|b |r |b |r |r |
+
+A
+|  |w |r |b |r |
+|y |b |y |w |r |
+|b |r |b |r |r |
+
+G
+|b |w |r |b |r |
+|y |  |y |w |r |
+|b |r |b |r |r |
+
+B
+|b |  |r |b |r |
+|y |w |y |w |r |
+|b |r |b |r |r |
+
+C
+|b |r |  |b |r |
+|y |w |y |w |r |
+|b |r |b |r |r |
+
+D
+|b |r |b |  |r |
+|y |w |y |w |r |
+|b |r |b |r |r |
+
+E
+|b |r |b |r |  |
+|y |w |y |w |r |
+|b |r |b |r |r |
+
+J
+|b |r |b |r |r |
+|y |w |y |w |  |
+|b |r |b |r |r |
+

@@ -1,0 +1,77 @@
+Game 29
+Initial Board:
+
+|r |b |r |  |b |
+|y |b |b |r |w |
+|r |r |r |y |w |
+
+I
+|r |b |r |r |b |
+|y |b |b |  |w |
+|r |r |r |y |w |
+
+N
+|r |b |r |r |b |
+|y |b |b |y |w |
+|r |r |r |  |w |
+
+M
+|r |b |r |r |b |
+|y |b |b |y |w |
+|r |r |  |r |w |
+
+L
+|r |b |r |r |b |
+|y |b |b |y |w |
+|r |  |r |r |w |
+
+G
+|r |b |r |r |b |
+|y |  |b |y |w |
+|r |b |r |r |w |
+
+H
+|r |b |r |r |b |
+|y |b |  |y |w |
+|r |b |r |r |w |
+
+C
+|r |b |  |r |b |
+|y |b |r |y |w |
+|r |b |r |r |w |
+
+D
+|r |b |r |  |b |
+|y |b |r |y |w |
+|r |b |r |r |w |
+
+E
+|r |b |r |b |  |
+|y |b |r |y |w |
+|r |b |r |r |w |
+
+J
+|r |b |r |b |w |
+|y |b |r |y |  |
+|r |b |r |r |w |
+
+I
+|r |b |r |b |w |
+|y |b |r |  |y |
+|r |b |r |r |w |
+
+D
+|r |b |r |  |w |
+|y |b |r |b |y |
+|r |b |r |r |w |
+
+C
+|r |b |  |r |w |
+|y |b |r |b |y |
+|r |b |r |r |w |
+
+H
+|r |b |r |r |w |
+|y |b |  |b |y |
+|r |b |r |r |w |
+

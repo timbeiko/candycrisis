@@ -1,0 +1,82 @@
+Game 12
+Initial Board:
+
+|r |w |b |b |y |
+|r |r |b |b |  |
+|w |r |r |y |r |
+
+O
+|r |w |b |b |y |
+|r |r |b |b |r |
+|w |r |r |y |  |
+
+N
+|r |w |b |b |y |
+|r |r |b |b |r |
+|w |r |r |  |y |
+
+I
+|r |w |b |b |y |
+|r |r |b |  |r |
+|w |r |r |b |y |
+
+H
+|r |w |b |b |y |
+|r |r |  |b |r |
+|w |r |r |b |y |
+
+C
+|r |w |  |b |y |
+|r |r |b |b |r |
+|w |r |r |b |y |
+
+B
+|r |  |w |b |y |
+|r |r |b |b |r |
+|w |r |r |b |y |
+
+A
+|  |r |w |b |y |
+|r |r |b |b |r |
+|w |r |r |b |y |
+
+F
+|r |r |w |b |y |
+|  |r |b |b |r |
+|w |r |r |b |y |
+
+K
+|r |r |w |b |y |
+|w |r |b |b |r |
+|  |r |r |b |y |
+
+L
+|r |r |w |b |y |
+|w |r |b |b |r |
+|r |  |r |b |y |
+
+M
+|r |r |w |b |y |
+|w |r |b |b |r |
+|r |r |  |b |y |
+
+H
+|r |r |w |b |y |
+|w |r |  |b |r |
+|r |r |b |b |y |
+
+C
+|r |r |  |b |y |
+|w |r |w |b |r |
+|r |r |b |b |y |
+
+D
+|r |r |b |  |y |
+|w |r |w |b |r |
+|r |r |b |b |y |
+
+I
+|r |r |b |b |y |
+|w |r |w |  |r |
+|r |r |b |b |y |
+

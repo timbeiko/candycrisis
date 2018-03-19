@@ -1,0 +1,72 @@
+Game 43
+Initial Board:
+
+|r |w |b |r |r |
+|b |r |  |b |b |
+|r |r |y |w |y |
+
+C
+|r |w |  |r |r |
+|b |r |b |b |b |
+|r |r |y |w |y |
+
+B
+|r |  |w |r |r |
+|b |r |b |b |b |
+|r |r |y |w |y |
+
+G
+|r |r |w |r |r |
+|b |  |b |b |b |
+|r |r |y |w |y |
+
+H
+|r |r |w |r |r |
+|b |b |  |b |b |
+|r |r |y |w |y |
+
+M
+|r |r |w |r |r |
+|b |b |y |b |b |
+|r |r |  |w |y |
+
+N
+|r |r |w |r |r |
+|b |b |y |b |b |
+|r |r |w |  |y |
+
+I
+|r |r |w |r |r |
+|b |b |y |  |b |
+|r |r |w |b |y |
+
+D
+|r |r |w |  |r |
+|b |b |y |r |b |
+|r |r |w |b |y |
+
+E
+|r |r |w |r |  |
+|b |b |y |r |b |
+|r |r |w |b |y |
+
+J
+|r |r |w |r |b |
+|b |b |y |r |  |
+|r |r |w |b |y |
+
+O
+|r |r |w |r |b |
+|b |b |y |r |y |
+|r |r |w |b |  |
+
+N
+|r |r |w |r |b |
+|b |b |y |r |y |
+|r |r |w |  |b |
+
+I
+|r |r |w |r |b |
+|b |b |y |  |y |
+|r |r |w |r |b |
+

@@ -1,0 +1,87 @@
+Game 17
+Initial Board:
+
+|b |r |b |r |r |
+|r |b |r |  |w |
+|b |y |w |r |y |
+
+H
+|b |r |b |r |r |
+|r |b |  |r |w |
+|b |y |w |r |y |
+
+M
+|b |r |b |r |r |
+|r |b |w |r |w |
+|b |y |  |r |y |
+
+L
+|b |r |b |r |r |
+|r |b |w |r |w |
+|b |  |y |r |y |
+
+G
+|b |r |b |r |r |
+|r |  |w |r |w |
+|b |b |y |r |y |
+
+B
+|b |  |b |r |r |
+|r |r |w |r |w |
+|b |b |y |r |y |
+
+C
+|b |b |  |r |r |
+|r |r |w |r |w |
+|b |b |y |r |y |
+
+H
+|b |b |w |r |r |
+|r |r |  |r |w |
+|b |b |y |r |y |
+
+I
+|b |b |w |r |r |
+|r |r |r |  |w |
+|b |b |y |r |y |
+
+J
+|b |b |w |r |r |
+|r |r |r |w |  |
+|b |b |y |r |y |
+
+O
+|b |b |w |r |r |
+|r |r |r |w |y |
+|b |b |y |r |  |
+
+N
+|b |b |w |r |r |
+|r |r |r |w |y |
+|b |b |y |  |r |
+
+I
+|b |b |w |r |r |
+|r |r |r |  |y |
+|b |b |y |w |r |
+
+H
+|b |b |w |r |r |
+|r |r |  |r |y |
+|b |b |y |w |r |
+
+M
+|b |b |w |r |r |
+|r |r |y |r |y |
+|b |b |  |w |r |
+
+N
+|b |b |w |r |r |
+|r |r |y |r |y |
+|b |b |w |  |r |
+
+I
+|b |b |w |r |r |
+|r |r |y |  |y |
+|b |b |w |r |r |
+

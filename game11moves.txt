@@ -1,0 +1,62 @@
+Game 11
+Initial Board:
+
+|r |w |r |b |w |
+|y |b |y |r |b |
+|r |b |r |  |r |
+
+O
+|r |w |r |b |w |
+|y |b |y |r |b |
+|r |b |r |r |  |
+
+J
+|r |w |r |b |w |
+|y |b |y |r |  |
+|r |b |r |r |b |
+
+E
+|r |w |r |b |  |
+|y |b |y |r |w |
+|r |b |r |r |b |
+
+D
+|r |w |r |  |b |
+|y |b |y |r |w |
+|r |b |r |r |b |
+
+C
+|r |w |  |r |b |
+|y |b |y |r |w |
+|r |b |r |r |b |
+
+B
+|r |  |w |r |b |
+|y |b |y |r |w |
+|r |b |r |r |b |
+
+G
+|r |b |w |r |b |
+|y |  |y |r |w |
+|r |b |r |r |b |
+
+H
+|r |b |w |r |b |
+|y |y |  |r |w |
+|r |b |r |r |b |
+
+C
+|r |b |  |r |b |
+|y |y |w |r |w |
+|r |b |r |r |b |
+
+D
+|r |b |r |  |b |
+|y |y |w |r |w |
+|r |b |r |r |b |
+
+I
+|r |b |r |r |b |
+|y |y |w |  |w |
+|r |b |r |r |b |
+

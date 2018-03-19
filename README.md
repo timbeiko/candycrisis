@@ -5,6 +5,16 @@ The main file for this project is `candycrisis.py`
 
 To run this on the lab machines at Concordia (Linux) you will need to run the following command: `module load python/2.7.10`
 
+### Third deliverable (Mar. 29)
+Novice: 10 seconds for 50 puzzles
+  - [x] Current best: Heuristic 3: 1.03053212166 secs 
+Apprentice: 12 seconds for 50 puzzles
+  - [ ] Current best: Heurstic 3: 13.0037589073 secs 
+Expert: 30 seconds for 30 puzzles
+  - [ ] Current best: Heuristic 3: 43.5458259583 secs
+Master: 20 seconds for 10 puzzles
+  - [x] Current best: Heuristic 3: 6.76701188087 secs 
+
 ### Second deliverable (Mar. 15)
 Automatic Mode
 (e.g. implementation of the search, output file generation, programming quality…) 

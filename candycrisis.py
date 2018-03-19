@@ -89,6 +89,32 @@ def heuristic(gameConfig):
     # return 0 
 
     # Heuristic 1: return the 5 minus the number of matching candies in rows 1 & 3 
+    # i = 0 
+    # j = 10 
+    # match = 0 
+    # while i < 5: 
+    #     if gc[i] == gc[j]:
+    #         match += 1 
+    #     i += 1 
+    #     j += 1  
+    # return (5 - match)*10.0 
+
+    # Heuristic 2: like 1, and +1 point if 'e' is in the top or bottom row 
+    # Slower than heuristic 1 for novice inputs
+    # i = 0 
+    # j = 10 
+    # match = 0 
+    # while i < 5: 
+    #     if gc[i] == gc[j]:
+    #         match += 1 
+    #     elif gc[i] == 'e' or gc[j] == 'e':
+    #         match += 1
+    #     i += 1 
+    #     j += 1  
+    # return 6 - match 
+
+    # Heuristic 3: like 1, but multiplied by 10. 
+    # Much quicker than H1
     i = 0 
     j = 10 
     match = 0 
@@ -97,7 +123,7 @@ def heuristic(gameConfig):
             match += 1 
         i += 1 
         j += 1  
-    return 5 - match 
+    return (5 - match)*10.0 
 
 def outputGameInfo(gameCount, time, moves):
     with open(output_file, "a") as f:
@@ -201,7 +227,7 @@ def manual_mode():
 
 def automatic_mode():
     # Get initial configurations from the input file 
-    readConfigs('novice_inputs.txt') 
+    readConfigs('master_inputs.txt') 
     # Clear output file from previous games 
     open(output_file, "w")
 
@@ -287,7 +313,6 @@ def automatic_mode():
     with open(output_file, "a") as f:
         f.write("Total moves played: " + str(totalMovesPlayed))
         f.write("Total time taken: " + str(totalTimeTaken))
-
 
 def main(): 
     # To clear the screen 
