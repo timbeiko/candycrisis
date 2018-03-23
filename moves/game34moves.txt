@@ -1,102 +1,102 @@
 Game 34
 Initial Board:
 
-|w |b |r |r |b |
-|b |  |b |b |r |
-|r |r |w |r |b |
+|b |r |r |  |w |
+|r |w |r |r |b |
+|y |r |b |b |y |
 
-B
-|w |  |r |r |b |
-|b |b |b |b |r |
-|r |r |w |r |b |
+E
+|b |r |r |w |  |
+|r |w |r |r |b |
+|y |r |b |b |y |
 
-C
-|w |r |  |r |b |
-|b |b |b |b |r |
-|r |r |w |r |b |
+J
+|b |r |r |w |b |
+|r |w |r |r |  |
+|y |r |b |b |y |
 
-H
-|w |r |b |r |b |
-|b |b |  |b |r |
-|r |r |w |r |b |
+O
+|b |r |r |w |b |
+|r |w |r |r |y |
+|y |r |b |b |  |
 
-G
-|w |r |b |r |b |
-|b |  |b |b |r |
-|r |r |w |r |b |
-
-F
-|w |r |b |r |b |
-|  |b |b |b |r |
-|r |r |w |r |b |
-
-A
-|  |r |b |r |b |
-|w |b |b |b |r |
-|r |r |w |r |b |
-
-B
-|r |  |b |r |b |
-|w |b |b |b |r |
-|r |r |w |r |b |
-
-G
-|r |b |b |r |b |
-|w |  |b |b |r |
-|r |r |w |r |b |
-
-L
-|r |b |b |r |b |
-|w |r |b |b |r |
-|r |  |w |r |b |
+N
+|b |r |r |w |b |
+|r |w |r |r |y |
+|y |r |b |  |b |
 
 M
-|r |b |b |r |b |
-|w |r |b |b |r |
-|r |w |  |r |b |
+|b |r |r |w |b |
+|r |w |r |r |y |
+|y |r |  |b |b |
 
 H
-|r |b |b |r |b |
-|w |r |  |b |r |
-|r |w |b |r |b |
-
-C
-|r |b |  |r |b |
-|w |r |b |b |r |
-|r |w |b |r |b |
-
-B
-|r |  |b |r |b |
-|w |r |b |b |r |
-|r |w |b |r |b |
+|b |r |r |w |b |
+|r |w |  |r |y |
+|y |r |r |b |b |
 
 G
-|r |r |b |r |b |
-|w |  |b |b |r |
-|r |w |b |r |b |
-
-L
-|r |r |b |r |b |
-|w |w |b |b |r |
-|r |  |b |r |b |
-
-K
-|r |r |b |r |b |
-|w |w |b |b |r |
-|  |r |b |r |b |
+|b |r |r |w |b |
+|r |  |w |r |y |
+|y |r |r |b |b |
 
 F
-|r |r |b |r |b |
-|  |w |b |b |r |
-|w |r |b |r |b |
+|b |r |r |w |b |
+|  |r |w |r |y |
+|y |r |r |b |b |
 
 A
-|  |r |b |r |b |
-|r |w |b |b |r |
-|w |r |b |r |b |
+|  |r |r |w |b |
+|b |r |w |r |y |
+|y |r |r |b |b |
 
 G
-|w |r |b |r |b |
-|r |  |b |b |r |
-|w |r |b |r |b |
+|r |r |r |w |b |
+|b |  |w |r |y |
+|y |r |r |b |b |
+
+F
+|r |r |r |w |b |
+|  |b |w |r |y |
+|y |r |r |b |b |
+
+K
+|r |r |r |w |b |
+|y |b |w |r |y |
+|  |r |r |b |b |
+
+L
+|r |r |r |w |b |
+|y |b |w |r |y |
+|r |  |r |b |b |
+
+M
+|r |r |r |w |b |
+|y |b |w |r |y |
+|r |r |  |b |b |
+
+H
+|r |r |r |w |b |
+|y |b |  |r |y |
+|r |r |w |b |b |
+
+I
+|r |r |r |w |b |
+|y |b |r |  |y |
+|r |r |w |b |b |
+
+N
+|r |r |r |w |b |
+|y |b |r |b |y |
+|r |r |w |  |b |
+
+M
+|r |r |r |w |b |
+|y |b |r |b |y |
+|r |r |  |w |b |
+
+H
+|r |r |r |w |b |
+|y |b |  |b |y |
+|r |r |r |w |b |
 

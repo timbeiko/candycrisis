@@ -1,27 +1,72 @@
 Game 22
 Initial Board:
 
-|b |w |r |b |b |
-|r |b |r |w |r |
-|r |  |r |b |b |
+|w |r |b |r |b |
+|y |  |b |r |r |
+|w |r |b |y |r |
 
-G
-|b |w |r |b |b |
-|r |  |r |w |r |
-|r |b |r |b |b |
+H
+|w |r |b |r |b |
+|y |b |  |r |r |
+|w |r |b |y |r |
 
-B
-|b |  |r |b |b |
-|r |w |r |w |r |
-|r |b |r |b |b |
+I
+|w |r |b |r |b |
+|y |b |r |  |r |
+|w |r |b |y |r |
 
-A
-|  |b |r |b |b |
-|r |w |r |w |r |
-|r |b |r |b |b |
+D
+|w |r |b |  |b |
+|y |b |r |r |r |
+|w |r |b |y |r |
 
-F
-|r |b |r |b |b |
-|  |w |r |w |r |
-|r |b |r |b |b |
+E
+|w |r |b |b |  |
+|y |b |r |r |r |
+|w |r |b |y |r |
+
+J
+|w |r |b |b |r |
+|y |b |r |r |  |
+|w |r |b |y |r |
+
+I
+|w |r |b |b |r |
+|y |b |r |  |r |
+|w |r |b |y |r |
+
+H
+|w |r |b |b |r |
+|y |b |  |r |r |
+|w |r |b |y |r |
+
+C
+|w |r |  |b |r |
+|y |b |b |r |r |
+|w |r |b |y |r |
+
+D
+|w |r |b |  |r |
+|y |b |b |r |r |
+|w |r |b |y |r |
+
+I
+|w |r |b |r |r |
+|y |b |b |  |r |
+|w |r |b |y |r |
+
+N
+|w |r |b |r |r |
+|y |b |b |y |r |
+|w |r |b |  |r |
+
+O
+|w |r |b |r |r |
+|y |b |b |y |r |
+|w |r |b |r |  |
+
+J
+|w |r |b |r |r |
+|y |b |b |y |  |
+|w |r |b |r |r |
 

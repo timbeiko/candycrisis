@@ -1,107 +1,72 @@
 Game 9
 Initial Board:
 
-|b |r |w |w |b |
-|r |  |b |b |b |
-|r |r |b |r |r |
-
-F
-|b |r |w |w |b |
-|  |r |b |b |b |
-|r |r |b |r |r |
-
-A
-|  |r |w |w |b |
-|b |r |b |b |b |
-|r |r |b |r |r |
-
-G
-|r |r |w |w |b |
-|b |  |b |b |b |
-|r |r |b |r |r |
-
-H
-|r |r |w |w |b |
-|b |b |  |b |b |
-|r |r |b |r |r |
-
-M
-|r |r |w |w |b |
-|b |b |b |b |b |
-|r |r |  |r |r |
+|r |r |y |b |w |
+|b |r |w |r |r |
+|r |b |  |y |b |
 
 N
-|r |r |w |w |b |
-|b |b |b |b |b |
-|r |r |r |  |r |
-
-O
-|r |r |w |w |b |
-|b |b |b |b |b |
-|r |r |r |r |  |
-
-J
-|r |r |w |w |b |
-|b |b |b |b |  |
-|r |r |r |r |b |
+|r |r |y |b |w |
+|b |r |w |r |r |
+|r |b |y |  |b |
 
 I
-|r |r |w |w |b |
-|b |b |b |  |b |
-|r |r |r |r |b |
+|r |r |y |b |w |
+|b |r |w |  |r |
+|r |b |y |r |b |
 
-H
-|r |r |w |w |b |
-|b |b |  |b |b |
-|r |r |r |r |b |
+J
+|r |r |y |b |w |
+|b |r |w |r |  |
+|r |b |y |r |b |
 
-C
-|r |r |  |w |b |
-|b |b |w |b |b |
-|r |r |r |r |b |
+E
+|r |r |y |b |  |
+|b |r |w |r |w |
+|r |b |y |r |b |
 
 D
-|r |r |w |  |b |
-|b |b |w |b |b |
-|r |r |r |r |b |
+|r |r |y |  |b |
+|b |r |w |r |w |
+|r |b |y |r |b |
 
 I
-|r |r |w |b |b |
-|b |b |w |  |b |
-|r |r |r |r |b |
-
-N
-|r |r |w |b |b |
-|b |b |w |r |b |
-|r |r |r |  |b |
-
-M
-|r |r |w |b |b |
-|b |b |w |r |b |
-|r |r |  |r |b |
+|r |r |y |r |b |
+|b |r |w |  |w |
+|r |b |y |r |b |
 
 H
-|r |r |w |b |b |
-|b |b |  |r |b |
-|r |r |w |r |b |
+|r |r |y |r |b |
+|b |r |  |w |w |
+|r |b |y |r |b |
 
-I
-|r |r |w |b |b |
-|b |b |r |  |b |
-|r |r |w |r |b |
+G
+|r |r |y |r |b |
+|b |  |r |w |w |
+|r |b |y |r |b |
 
-N
-|r |r |w |b |b |
-|b |b |r |r |b |
-|r |r |w |  |b |
+L
+|r |r |y |r |b |
+|b |b |r |w |w |
+|r |  |y |r |b |
 
-O
-|r |r |w |b |b |
-|b |b |r |r |b |
-|r |r |w |b |  |
+K
+|r |r |y |r |b |
+|b |b |r |w |w |
+|  |r |y |r |b |
 
-J
-|r |r |w |b |b |
-|b |b |r |r |  |
-|r |r |w |b |b |
+F
+|r |r |y |r |b |
+|  |b |r |w |w |
+|b |r |y |r |b |
+
+A
+|  |r |y |r |b |
+|r |b |r |w |w |
+|b |r |y |r |b |
+
+G
+|b |r |y |r |b |
+|r |  |r |w |w |
+|b |r |y |r |b |
 

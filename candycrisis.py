@@ -229,9 +229,9 @@ def manual_mode():
 def automatic_mode():
     # Get number of input file from user
     fileNum = raw_input("Please input a number between 1-4 to specify which input file to use: ")
-    output_file = "outputs" + str(fileNum) + ".txt"
+    output_file = "output" + str(fileNum) + ".txt"
     # Get initial configurations from the input file 
-    readConfigs("inputs" + str(fileNum) + ".txt") 
+    readConfigs("input" + str(fileNum) + ".txt") 
     # Clear output file from previous games 
     open(output_file, "w")
 

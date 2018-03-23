@@ -1,37 +1,127 @@
 Game 48
 Initial Board:
 
-|b |r |b |  |b |
-|r |b |w |r |r |
-|r |r |w |b |b |
+|y |w |b |r |r |
+|r |r |r |y |w |
+|r |b |  |b |b |
 
-C
-|b |r |  |b |b |
-|r |b |w |r |r |
-|r |r |w |b |b |
-
-H
-|b |r |w |b |b |
-|r |b |  |r |r |
-|r |r |w |b |b |
+L
+|y |w |b |r |r |
+|r |r |r |y |w |
+|r |  |b |b |b |
 
 G
-|b |r |w |b |b |
-|r |  |b |r |r |
-|r |r |w |b |b |
+|y |w |b |r |r |
+|r |  |r |y |w |
+|r |r |b |b |b |
 
-F
-|b |r |w |b |b |
-|  |r |b |r |r |
-|r |r |w |b |b |
+B
+|y |  |b |r |r |
+|r |w |r |y |w |
+|r |r |b |b |b |
 
 A
-|  |r |w |b |b |
-|b |r |b |r |r |
-|r |r |w |b |b |
+|  |y |b |r |r |
+|r |w |r |y |w |
+|r |r |b |b |b |
+
+F
+|r |y |b |r |r |
+|  |w |r |y |w |
+|r |r |b |b |b |
 
 G
-|r |r |w |b |b |
-|b |  |b |r |r |
-|r |r |w |b |b |
+|r |y |b |r |r |
+|w |  |r |y |w |
+|r |r |b |b |b |
+
+H
+|r |y |b |r |r |
+|w |r |  |y |w |
+|r |r |b |b |b |
+
+I
+|r |y |b |r |r |
+|w |r |y |  |w |
+|r |r |b |b |b |
+
+D
+|r |y |b |  |r |
+|w |r |y |r |w |
+|r |r |b |b |b |
+
+C
+|r |y |  |b |r |
+|w |r |y |r |w |
+|r |r |b |b |b |
+
+B
+|r |  |y |b |r |
+|w |r |y |r |w |
+|r |r |b |b |b |
+
+G
+|r |r |y |b |r |
+|w |  |y |r |w |
+|r |r |b |b |b |
+
+H
+|r |r |y |b |r |
+|w |y |  |r |w |
+|r |r |b |b |b |
+
+C
+|r |r |  |b |r |
+|w |y |y |r |w |
+|r |r |b |b |b |
+
+D
+|r |r |b |  |r |
+|w |y |y |r |w |
+|r |r |b |b |b |
+
+E
+|r |r |b |r |  |
+|w |y |y |r |w |
+|r |r |b |b |b |
+
+J
+|r |r |b |r |w |
+|w |y |y |r |  |
+|r |r |b |b |b |
+
+I
+|r |r |b |r |w |
+|w |y |y |  |r |
+|r |r |b |b |b |
+
+N
+|r |r |b |r |w |
+|w |y |y |b |r |
+|r |r |b |  |b |
+
+O
+|r |r |b |r |w |
+|w |y |y |b |r |
+|r |r |b |b |  |
+
+J
+|r |r |b |r |w |
+|w |y |y |b |  |
+|r |r |b |b |r |
+
+E
+|r |r |b |r |  |
+|w |y |y |b |w |
+|r |r |b |b |r |
+
+D
+|r |r |b |  |r |
+|w |y |y |b |w |
+|r |r |b |b |r |
+
+I
+|r |r |b |b |r |
+|w |y |y |  |w |
+|r |r |b |b |r |
 

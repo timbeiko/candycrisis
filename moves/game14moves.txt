@@ -1,52 +1,62 @@
 Game 14
 Initial Board:
 
-|  |r |b |w |r |
-|r |r |b |b |w |
-|b |r |b |b |r |
-
-F
-|r |r |b |w |r |
-|  |r |b |b |w |
-|b |r |b |b |r |
-
-K
-|r |r |b |w |r |
-|b |r |b |b |w |
-|  |r |b |b |r |
-
-L
-|r |r |b |w |r |
-|b |r |b |b |w |
-|r |  |b |b |r |
-
-G
-|r |r |b |w |r |
-|b |  |b |b |w |
-|r |r |b |b |r |
-
-H
-|r |r |b |w |r |
-|b |b |  |b |w |
-|r |r |b |b |r |
+|b |b |w |  |r |
+|r |b |w |r |b |
+|y |r |r |y |r |
 
 I
-|r |r |b |w |r |
-|b |b |b |  |w |
-|r |r |b |b |r |
+|b |b |w |r |r |
+|r |b |w |  |b |
+|y |r |r |y |r |
 
-D
-|r |r |b |  |r |
-|b |b |b |w |w |
-|r |r |b |b |r |
+N
+|b |b |w |r |r |
+|r |b |w |y |b |
+|y |r |r |  |r |
 
-C
-|r |r |  |b |r |
-|b |b |b |w |w |
-|r |r |b |b |r |
+M
+|b |b |w |r |r |
+|r |b |w |y |b |
+|y |r |  |r |r |
 
 H
-|r |r |b |b |r |
-|b |b |  |w |w |
-|r |r |b |b |r |
+|b |b |w |r |r |
+|r |b |  |y |b |
+|y |r |w |r |r |
+
+G
+|b |b |w |r |r |
+|r |  |b |y |b |
+|y |r |w |r |r |
+
+B
+|b |  |w |r |r |
+|r |b |b |y |b |
+|y |r |w |r |r |
+
+A
+|  |b |w |r |r |
+|r |b |b |y |b |
+|y |r |w |r |r |
+
+F
+|r |b |w |r |r |
+|  |b |b |y |b |
+|y |r |w |r |r |
+
+K
+|r |b |w |r |r |
+|y |b |b |y |b |
+|  |r |w |r |r |
+
+L
+|r |b |w |r |r |
+|y |b |b |y |b |
+|r |  |w |r |r |
+
+G
+|r |b |w |r |r |
+|y |  |b |y |b |
+|r |b |w |r |r |
 
