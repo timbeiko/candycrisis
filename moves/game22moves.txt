@@ -1,0 +1,27 @@
+Game 22
+Initial Board:
+
+|b |w |r |b |b |
+|r |b |r |w |r |
+|r |  |r |b |b |
+
+G
+|b |w |r |b |b |
+|r |  |r |w |r |
+|r |b |r |b |b |
+
+B
+|b |  |r |b |b |
+|r |w |r |w |r |
+|r |b |r |b |b |
+
+A
+|  |b |r |b |b |
+|r |w |r |w |r |
+|r |b |r |b |b |
+
+F
+|r |b |r |b |b |
+|  |w |r |w |r |
+|r |b |r |b |b |
+

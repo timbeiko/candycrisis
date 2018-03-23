@@ -1,0 +1,77 @@
+Game 6
+Initial Board:
+
+|b |b |r |w |r |
+|r |b |r |b |b |
+|w |b |r |  |r |
+
+I
+|b |b |r |w |r |
+|r |b |r |  |b |
+|w |b |r |b |r |
+
+H
+|b |b |r |w |r |
+|r |b |  |r |b |
+|w |b |r |b |r |
+
+G
+|b |b |r |w |r |
+|r |  |b |r |b |
+|w |b |r |b |r |
+
+F
+|b |b |r |w |r |
+|  |r |b |r |b |
+|w |b |r |b |r |
+
+K
+|b |b |r |w |r |
+|w |r |b |r |b |
+|  |b |r |b |r |
+
+L
+|b |b |r |w |r |
+|w |r |b |r |b |
+|b |  |r |b |r |
+
+G
+|b |b |r |w |r |
+|w |  |b |r |b |
+|b |r |r |b |r |
+
+B
+|b |  |r |w |r |
+|w |b |b |r |b |
+|b |r |r |b |r |
+
+C
+|b |r |  |w |r |
+|w |b |b |r |b |
+|b |r |r |b |r |
+
+H
+|b |r |b |w |r |
+|w |b |  |r |b |
+|b |r |r |b |r |
+
+I
+|b |r |b |w |r |
+|w |b |r |  |b |
+|b |r |r |b |r |
+
+D
+|b |r |b |  |r |
+|w |b |r |w |b |
+|b |r |r |b |r |
+
+C
+|b |r |  |b |r |
+|w |b |r |w |b |
+|b |r |r |b |r |
+
+H
+|b |r |r |b |r |
+|w |b |  |w |b |
+|b |r |r |b |r |
+

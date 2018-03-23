@@ -1,0 +1,67 @@
+Game 36
+Initial Board:
+
+|w |r |b |b |b |
+|r |r |  |r |b |
+|w |b |r |b |r |
+
+C
+|w |r |  |b |b |
+|r |r |b |r |b |
+|w |b |r |b |r |
+
+B
+|w |  |r |b |b |
+|r |r |b |r |b |
+|w |b |r |b |r |
+
+G
+|w |r |r |b |b |
+|r |  |b |r |b |
+|w |b |r |b |r |
+
+L
+|w |r |r |b |b |
+|r |b |b |r |b |
+|w |  |r |b |r |
+
+M
+|w |r |r |b |b |
+|r |b |b |r |b |
+|w |r |  |b |r |
+
+H
+|w |r |r |b |b |
+|r |b |  |r |b |
+|w |r |b |b |r |
+
+C
+|w |r |  |b |b |
+|r |b |r |r |b |
+|w |r |b |b |r |
+
+D
+|w |r |b |  |b |
+|r |b |r |r |b |
+|w |r |b |b |r |
+
+I
+|w |r |b |r |b |
+|r |b |r |  |b |
+|w |r |b |b |r |
+
+N
+|w |r |b |r |b |
+|r |b |r |b |b |
+|w |r |b |  |r |
+
+O
+|w |r |b |r |b |
+|r |b |r |b |b |
+|w |r |b |r |  |
+
+J
+|w |r |b |r |b |
+|r |b |r |b |  |
+|w |r |b |r |b |
+

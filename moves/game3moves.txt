@@ -1,0 +1,27 @@
+Game 3
+Initial Board:
+
+|b |b |r |r |b |
+|r |  |w |r |w |
+|b |r |b |r |b |
+
+L
+|b |b |r |r |b |
+|r |r |w |r |w |
+|b |  |b |r |b |
+
+M
+|b |b |r |r |b |
+|r |r |w |r |w |
+|b |b |  |r |b |
+
+N
+|b |b |r |r |b |
+|r |r |w |r |w |
+|b |b |r |  |b |
+
+I
+|b |b |r |r |b |
+|r |r |w |  |w |
+|b |b |r |r |b |
+

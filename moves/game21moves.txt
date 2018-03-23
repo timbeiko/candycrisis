@@ -1,0 +1,112 @@
+Game 21
+Initial Board:
+
+|r |r |b |r |  |
+|b |b |w |r |b |
+|b |r |b |w |r |
+
+D
+|r |r |b |  |r |
+|b |b |w |r |b |
+|b |r |b |w |r |
+
+I
+|r |r |b |r |r |
+|b |b |w |  |b |
+|b |r |b |w |r |
+
+H
+|r |r |b |r |r |
+|b |b |  |w |b |
+|b |r |b |w |r |
+
+G
+|r |r |b |r |r |
+|b |  |b |w |b |
+|b |r |b |w |r |
+
+F
+|r |r |b |r |r |
+|  |b |b |w |b |
+|b |r |b |w |r |
+
+K
+|r |r |b |r |r |
+|b |b |b |w |b |
+|  |r |b |w |r |
+
+L
+|r |r |b |r |r |
+|b |b |b |w |b |
+|r |  |b |w |r |
+
+G
+|r |r |b |r |r |
+|b |  |b |w |b |
+|r |b |b |w |r |
+
+B
+|r |  |b |r |r |
+|b |r |b |w |b |
+|r |b |b |w |r |
+
+C
+|r |b |  |r |r |
+|b |r |b |w |b |
+|r |b |b |w |r |
+
+D
+|r |b |r |  |r |
+|b |r |b |w |b |
+|r |b |b |w |r |
+
+I
+|r |b |r |w |r |
+|b |r |b |  |b |
+|r |b |b |w |r |
+
+H
+|r |b |r |w |r |
+|b |r |  |b |b |
+|r |b |b |w |r |
+
+C
+|r |b |  |w |r |
+|b |r |r |b |b |
+|r |b |b |w |r |
+
+B
+|r |  |b |w |r |
+|b |r |r |b |b |
+|r |b |b |w |r |
+
+G
+|r |r |b |w |r |
+|b |  |r |b |b |
+|r |b |b |w |r |
+
+L
+|r |r |b |w |r |
+|b |b |r |b |b |
+|r |  |b |w |r |
+
+K
+|r |r |b |w |r |
+|b |b |r |b |b |
+|  |r |b |w |r |
+
+F
+|r |r |b |w |r |
+|  |b |r |b |b |
+|b |r |b |w |r |
+
+A
+|  |r |b |w |r |
+|r |b |r |b |b |
+|b |r |b |w |r |
+
+G
+|b |r |b |w |r |
+|r |  |r |b |b |
+|b |r |b |w |r |
+

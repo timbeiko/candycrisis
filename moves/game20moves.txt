@@ -1,0 +1,87 @@
+Game 20
+Initial Board:
+
+|r |b |r |  |r |
+|r |b |r |b |w |
+|w |b |b |r |b |
+
+C
+|r |b |  |r |r |
+|r |b |r |b |w |
+|w |b |b |r |b |
+
+B
+|r |  |b |r |r |
+|r |b |r |b |w |
+|w |b |b |r |b |
+
+G
+|r |b |b |r |r |
+|r |  |r |b |w |
+|w |b |b |r |b |
+
+L
+|r |b |b |r |r |
+|r |b |r |b |w |
+|w |  |b |r |b |
+
+K
+|r |b |b |r |r |
+|r |b |r |b |w |
+|  |w |b |r |b |
+
+F
+|r |b |b |r |r |
+|  |b |r |b |w |
+|r |w |b |r |b |
+
+G
+|r |b |b |r |r |
+|b |  |r |b |w |
+|r |w |b |r |b |
+
+L
+|r |b |b |r |r |
+|b |w |r |b |w |
+|r |  |b |r |b |
+
+M
+|r |b |b |r |r |
+|b |w |r |b |w |
+|r |b |  |r |b |
+
+H
+|r |b |b |r |r |
+|b |w |  |b |w |
+|r |b |r |r |b |
+
+I
+|r |b |b |r |r |
+|b |w |b |  |w |
+|r |b |r |r |b |
+
+J
+|r |b |b |r |r |
+|b |w |b |w |  |
+|r |b |r |r |b |
+
+O
+|r |b |b |r |r |
+|b |w |b |w |b |
+|r |b |r |r |  |
+
+N
+|r |b |b |r |r |
+|b |w |b |w |b |
+|r |b |r |  |r |
+
+M
+|r |b |b |r |r |
+|b |w |b |w |b |
+|r |b |  |r |r |
+
+H
+|r |b |b |r |r |
+|b |w |  |w |b |
+|r |b |b |r |r |
+

@@ -1,0 +1,22 @@
+Game 11
+Initial Board:
+
+|r |r |w |b |b |
+|b |r |w |r |b |
+|  |r |r |b |b |
+
+L
+|r |r |w |b |b |
+|b |r |w |r |b |
+|r |  |r |b |b |
+
+M
+|r |r |w |b |b |
+|b |r |w |r |b |
+|r |r |  |b |b |
+
+H
+|r |r |w |b |b |
+|b |r |  |r |b |
+|r |r |w |b |b |
+

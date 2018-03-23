@@ -1,0 +1,37 @@
+Game 4
+Initial Board:
+
+|r |b |r |b |  |
+|b |b |r |b |w |
+|r |r |r |b |w |
+
+J
+|r |b |r |b |w |
+|b |b |r |b |  |
+|r |r |r |b |w |
+
+I
+|r |b |r |b |w |
+|b |b |r |  |b |
+|r |r |r |b |w |
+
+H
+|r |b |r |b |w |
+|b |b |  |r |b |
+|r |r |r |b |w |
+
+M
+|r |b |r |b |w |
+|b |b |r |r |b |
+|r |r |  |b |w |
+
+L
+|r |b |r |b |w |
+|b |b |r |r |b |
+|r |  |r |b |w |
+
+G
+|r |b |r |b |w |
+|b |  |r |r |b |
+|r |b |r |b |w |
+

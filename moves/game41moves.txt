@@ -1,0 +1,67 @@
+Game 41
+Initial Board:
+
+|r |  |w |b |b |
+|b |b |b |w |r |
+|r |r |r |r |b |
+
+G
+|r |b |w |b |b |
+|b |  |b |w |r |
+|r |r |r |r |b |
+
+H
+|r |b |w |b |b |
+|b |b |  |w |r |
+|r |r |r |r |b |
+
+M
+|r |b |w |b |b |
+|b |b |r |w |r |
+|r |r |  |r |b |
+
+L
+|r |b |w |b |b |
+|b |b |r |w |r |
+|r |  |r |r |b |
+
+G
+|r |b |w |b |b |
+|b |  |r |w |r |
+|r |b |r |r |b |
+
+H
+|r |b |w |b |b |
+|b |r |  |w |r |
+|r |b |r |r |b |
+
+M
+|r |b |w |b |b |
+|b |r |r |w |r |
+|r |b |  |r |b |
+
+N
+|r |b |w |b |b |
+|b |r |r |w |r |
+|r |b |r |  |b |
+
+I
+|r |b |w |b |b |
+|b |r |r |  |r |
+|r |b |r |w |b |
+
+D
+|r |b |w |  |b |
+|b |r |r |b |r |
+|r |b |r |w |b |
+
+C
+|r |b |  |w |b |
+|b |r |r |b |r |
+|r |b |r |w |b |
+
+H
+|r |b |r |w |b |
+|b |r |  |b |r |
+|r |b |r |w |b |
+

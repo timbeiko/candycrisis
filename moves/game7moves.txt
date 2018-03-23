@@ -1,0 +1,67 @@
+Game 7
+Initial Board:
+
+|b |w |b |r |  |
+|w |r |r |r |r |
+|b |b |b |r |b |
+
+J
+|b |w |b |r |r |
+|w |r |r |r |  |
+|b |b |b |r |b |
+
+O
+|b |w |b |r |r |
+|w |r |r |r |b |
+|b |b |b |r |  |
+
+N
+|b |w |b |r |r |
+|w |r |r |r |b |
+|b |b |b |  |r |
+
+I
+|b |w |b |r |r |
+|w |r |r |  |b |
+|b |b |b |r |r |
+
+H
+|b |w |b |r |r |
+|w |r |  |r |b |
+|b |b |b |r |r |
+
+G
+|b |w |b |r |r |
+|w |  |r |r |b |
+|b |b |b |r |r |
+
+B
+|b |  |b |r |r |
+|w |w |r |r |b |
+|b |b |b |r |r |
+
+C
+|b |b |  |r |r |
+|w |w |r |r |b |
+|b |b |b |r |r |
+
+H
+|b |b |r |r |r |
+|w |w |  |r |b |
+|b |b |b |r |r |
+
+M
+|b |b |r |r |r |
+|w |w |b |r |b |
+|b |b |  |r |r |
+
+N
+|b |b |r |r |r |
+|w |w |b |r |b |
+|b |b |r |  |r |
+
+I
+|b |b |r |r |r |
+|w |w |b |  |b |
+|b |b |r |r |r |
+

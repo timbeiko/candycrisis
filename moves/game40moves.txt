@@ -1,0 +1,32 @@
+Game 40
+Initial Board:
+
+|r |b |b |b |r |
+|r |w |b |r |  |
+|r |b |w |b |r |
+
+I
+|r |b |b |b |r |
+|r |w |b |  |r |
+|r |b |w |b |r |
+
+H
+|r |b |b |b |r |
+|r |w |  |b |r |
+|r |b |w |b |r |
+
+M
+|r |b |b |b |r |
+|r |w |w |b |r |
+|r |b |  |b |r |
+
+N
+|r |b |b |b |r |
+|r |w |w |b |r |
+|r |b |b |  |r |
+
+I
+|r |b |b |b |r |
+|r |w |w |  |r |
+|r |b |b |b |r |
+

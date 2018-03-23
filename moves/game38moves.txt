@@ -1,0 +1,57 @@
+Game 38
+Initial Board:
+
+|r |b |b |r |w |
+|r |w |b |b |r |
+|  |b |r |r |b |
+
+F
+|r |b |b |r |w |
+|  |w |b |b |r |
+|r |b |r |r |b |
+
+G
+|r |b |b |r |w |
+|w |  |b |b |r |
+|r |b |r |r |b |
+
+H
+|r |b |b |r |w |
+|w |b |  |b |r |
+|r |b |r |r |b |
+
+C
+|r |b |  |r |w |
+|w |b |b |b |r |
+|r |b |r |r |b |
+
+D
+|r |b |r |  |w |
+|w |b |b |b |r |
+|r |b |r |r |b |
+
+I
+|r |b |r |b |w |
+|w |b |b |  |r |
+|r |b |r |r |b |
+
+J
+|r |b |r |b |w |
+|w |b |b |r |  |
+|r |b |r |r |b |
+
+E
+|r |b |r |b |  |
+|w |b |b |r |w |
+|r |b |r |r |b |
+
+D
+|r |b |r |  |b |
+|w |b |b |r |w |
+|r |b |r |r |b |
+
+I
+|r |b |r |r |b |
+|w |b |b |  |w |
+|r |b |r |r |b |
+

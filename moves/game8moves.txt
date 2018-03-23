@@ -1,0 +1,62 @@
+Game 8
+Initial Board:
+
+|b |r |w |b |b |
+|b |w |r |r |r |
+|r |b |b |r |  |
+
+N
+|b |r |w |b |b |
+|b |w |r |r |r |
+|r |b |b |  |r |
+
+M
+|b |r |w |b |b |
+|b |w |r |r |r |
+|r |b |  |b |r |
+
+L
+|b |r |w |b |b |
+|b |w |r |r |r |
+|r |  |b |b |r |
+
+K
+|b |r |w |b |b |
+|b |w |r |r |r |
+|  |r |b |b |r |
+
+F
+|b |r |w |b |b |
+|  |w |r |r |r |
+|b |r |b |b |r |
+
+G
+|b |r |w |b |b |
+|w |  |r |r |r |
+|b |r |b |b |r |
+
+H
+|b |r |w |b |b |
+|w |r |  |r |r |
+|b |r |b |b |r |
+
+C
+|b |r |  |b |b |
+|w |r |w |r |r |
+|b |r |b |b |r |
+
+D
+|b |r |b |  |b |
+|w |r |w |r |r |
+|b |r |b |b |r |
+
+E
+|b |r |b |b |  |
+|w |r |w |r |r |
+|b |r |b |b |r |
+
+J
+|b |r |b |b |r |
+|w |r |w |r |  |
+|b |r |b |b |r |
+

@@ -1,0 +1,62 @@
+Game 39
+Initial Board:
+
+|r |b |r |b |b |
+|r |w |b |r |b |
+|b |  |w |r |r |
+
+K
+|r |b |r |b |b |
+|r |w |b |r |b |
+|  |b |w |r |r |
+
+F
+|r |b |r |b |b |
+|  |w |b |r |b |
+|r |b |w |r |r |
+
+G
+|r |b |r |b |b |
+|w |  |b |r |b |
+|r |b |w |r |r |
+
+H
+|r |b |r |b |b |
+|w |b |  |r |b |
+|r |b |w |r |r |
+
+M
+|r |b |r |b |b |
+|w |b |w |r |b |
+|r |b |  |r |r |
+
+N
+|r |b |r |b |b |
+|w |b |w |r |b |
+|r |b |r |  |r |
+
+O
+|r |b |r |b |b |
+|w |b |w |r |b |
+|r |b |r |r |  |
+
+J
+|r |b |r |b |b |
+|w |b |w |r |  |
+|r |b |r |r |b |
+
+E
+|r |b |r |b |  |
+|w |b |w |r |b |
+|r |b |r |r |b |
+
+D
+|r |b |r |  |b |
+|w |b |w |r |b |
+|r |b |r |r |b |
+
+I
+|r |b |r |r |b |
+|w |b |w |  |b |
+|r |b |r |r |b |
+

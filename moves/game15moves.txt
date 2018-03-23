@@ -1,0 +1,47 @@
+Game 15
+Initial Board:
+
+|r |r |b |r |r |
+|b |b |w |b |b |
+|b |r |w |  |r |
+
+I
+|r |r |b |r |r |
+|b |b |w |  |b |
+|b |r |w |b |r |
+
+D
+|r |r |b |  |r |
+|b |b |w |r |b |
+|b |r |w |b |r |
+
+C
+|r |r |  |b |r |
+|b |b |w |r |b |
+|b |r |w |b |r |
+
+H
+|r |r |w |b |r |
+|b |b |  |r |b |
+|b |r |w |b |r |
+
+G
+|r |r |w |b |r |
+|b |  |b |r |b |
+|b |r |w |b |r |
+
+F
+|r |r |w |b |r |
+|  |b |b |r |b |
+|b |r |w |b |r |
+
+A
+|  |r |w |b |r |
+|r |b |b |r |b |
+|b |r |w |b |r |
+
+G
+|b |r |w |b |r |
+|r |  |b |r |b |
+|b |r |w |b |r |
+

@@ -1,0 +1,32 @@
+Game 25
+Initial Board:
+
+|b |b |  |r |r |
+|b |w |b |r |r |
+|b |b |w |r |r |
+
+H
+|b |b |b |r |r |
+|b |w |  |r |r |
+|b |b |w |r |r |
+
+M
+|b |b |b |r |r |
+|b |w |w |r |r |
+|b |b |  |r |r |
+
+L
+|b |b |b |r |r |
+|b |w |w |r |r |
+|b |  |b |r |r |
+
+K
+|b |b |b |r |r |
+|b |w |w |r |r |
+|  |b |b |r |r |
+
+F
+|b |b |b |r |r |
+|  |w |w |r |r |
+|b |b |b |r |r |
+

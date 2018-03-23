@@ -1,0 +1,37 @@
+Game 29
+Initial Board:
+
+|w |b |r |b |r |
+|b |r |b |b |  |
+|r |w |b |r |r |
+
+I
+|w |b |r |b |r |
+|b |r |b |  |b |
+|r |w |b |r |r |
+
+D
+|w |b |r |  |r |
+|b |r |b |b |b |
+|r |w |b |r |r |
+
+C
+|w |b |  |r |r |
+|b |r |b |b |b |
+|r |w |b |r |r |
+
+B
+|w |  |b |r |r |
+|b |r |b |b |b |
+|r |w |b |r |r |
+
+A
+|  |w |b |r |r |
+|b |r |b |b |b |
+|r |w |b |r |r |
+
+G
+|r |w |b |r |r |
+|b |  |b |b |b |
+|r |w |b |r |r |
+

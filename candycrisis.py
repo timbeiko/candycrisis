@@ -137,7 +137,7 @@ def outputGameInfo(gameCount, time, moves, output_file="outputs.txt"):
         f.write(str(time) + " seconds\n\n")
 
 def outputGameMoves(gameCount, moves, currentGame):
-    moveFile = "game" + str(gameCount) + "moves.txt"
+    moveFile = "moves/game" + str(gameCount) + "moves.txt"
     gameBoard = dc(currentGame)
 
     with open(moveFile, "w") as f: 

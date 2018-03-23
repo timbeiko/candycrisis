@@ -1,0 +1,42 @@
+Game 16
+Initial Board:
+
+|w |r |  |b |b |
+|w |b |r |r |b |
+|r |r |b |r |b |
+
+D
+|w |r |b |  |b |
+|w |b |r |r |b |
+|r |r |b |r |b |
+
+I
+|w |r |b |r |b |
+|w |b |r |  |b |
+|r |r |b |r |b |
+
+H
+|w |r |b |r |b |
+|w |b |  |r |b |
+|r |r |b |r |b |
+
+G
+|w |r |b |r |b |
+|w |  |b |r |b |
+|r |r |b |r |b |
+
+L
+|w |r |b |r |b |
+|w |r |b |r |b |
+|r |  |b |r |b |
+
+K
+|w |r |b |r |b |
+|w |r |b |r |b |
+|  |r |b |r |b |
+
+F
+|w |r |b |r |b |
+|  |r |b |r |b |
+|w |r |b |r |b |
+

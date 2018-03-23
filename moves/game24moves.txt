@@ -1,0 +1,77 @@
+Game 24
+Initial Board:
+
+|  |r |b |b |r |
+|w |r |r |b |b |
+|b |w |r |r |b |
+
+B
+|r |  |b |b |r |
+|w |r |r |b |b |
+|b |w |r |r |b |
+
+C
+|r |b |  |b |r |
+|w |r |r |b |b |
+|b |w |r |r |b |
+
+H
+|r |b |r |b |r |
+|w |r |  |b |b |
+|b |w |r |r |b |
+
+G
+|r |b |r |b |r |
+|w |  |r |b |b |
+|b |w |r |r |b |
+
+L
+|r |b |r |b |r |
+|w |w |r |b |b |
+|b |  |r |r |b |
+
+K
+|r |b |r |b |r |
+|w |w |r |b |b |
+|  |b |r |r |b |
+
+F
+|r |b |r |b |r |
+|  |w |r |b |b |
+|w |b |r |r |b |
+
+A
+|  |b |r |b |r |
+|r |w |r |b |b |
+|w |b |r |r |b |
+
+G
+|w |b |r |b |r |
+|r |  |r |b |b |
+|w |b |r |r |b |
+
+H
+|w |b |r |b |r |
+|r |r |  |b |b |
+|w |b |r |r |b |
+
+I
+|w |b |r |b |r |
+|r |r |b |  |b |
+|w |b |r |r |b |
+
+D
+|w |b |r |  |r |
+|r |r |b |b |b |
+|w |b |r |r |b |
+
+E
+|w |b |r |r |  |
+|r |r |b |b |b |
+|w |b |r |r |b |
+
+J
+|w |b |r |r |b |
+|r |r |b |b |  |
+|w |b |r |r |b |
+

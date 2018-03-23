@@ -1,0 +1,92 @@
+Game 30
+Initial Board:
+
+|b |r |r |w |b |
+|  |b |b |r |r |
+|r |b |b |w |r |
+
+A
+|  |r |r |w |b |
+|b |b |b |r |r |
+|r |b |b |w |r |
+
+B
+|r |  |r |w |b |
+|b |b |b |r |r |
+|r |b |b |w |r |
+
+G
+|r |b |r |w |b |
+|b |  |b |r |r |
+|r |b |b |w |r |
+
+H
+|r |b |r |w |b |
+|b |b |  |r |r |
+|r |b |b |w |r |
+
+C
+|r |b |  |w |b |
+|b |b |r |r |r |
+|r |b |b |w |r |
+
+B
+|r |  |b |w |b |
+|b |b |r |r |r |
+|r |b |b |w |r |
+
+G
+|r |b |b |w |b |
+|b |  |r |r |r |
+|r |b |b |w |r |
+
+H
+|r |b |b |w |b |
+|b |r |  |r |r |
+|r |b |b |w |r |
+
+I
+|r |b |b |w |b |
+|b |r |r |  |r |
+|r |b |b |w |r |
+
+J
+|r |b |b |w |b |
+|b |r |r |r |  |
+|r |b |b |w |r |
+
+O
+|r |b |b |w |b |
+|b |r |r |r |r |
+|r |b |b |w |  |
+
+N
+|r |b |b |w |b |
+|b |r |r |r |r |
+|r |b |b |  |w |
+
+I
+|r |b |b |w |b |
+|b |r |r |  |r |
+|r |b |b |r |w |
+
+J
+|r |b |b |w |b |
+|b |r |r |r |  |
+|r |b |b |r |w |
+
+E
+|r |b |b |w |  |
+|b |r |r |r |b |
+|r |b |b |r |w |
+
+D
+|r |b |b |  |w |
+|b |r |r |r |b |
+|r |b |b |r |w |
+
+I
+|r |b |b |r |w |
+|b |r |r |  |b |
+|r |b |b |r |w |
+

@@ -1,0 +1,52 @@
+Game 37
+Initial Board:
+
+|r |b |b |r |r |
+|b |w |b |b |  |
+|w |b |r |r |r |
+
+I
+|r |b |b |r |r |
+|b |w |b |  |b |
+|w |b |r |r |r |
+
+H
+|r |b |b |r |r |
+|b |w |  |b |b |
+|w |b |r |r |r |
+
+M
+|r |b |b |r |r |
+|b |w |r |b |b |
+|w |b |  |r |r |
+
+L
+|r |b |b |r |r |
+|b |w |r |b |b |
+|w |  |b |r |r |
+
+K
+|r |b |b |r |r |
+|b |w |r |b |b |
+|  |w |b |r |r |
+
+F
+|r |b |b |r |r |
+|  |w |r |b |b |
+|b |w |b |r |r |
+
+A
+|  |b |b |r |r |
+|r |w |r |b |b |
+|b |w |b |r |r |
+
+B
+|b |  |b |r |r |
+|r |w |r |b |b |
+|b |w |b |r |r |
+
+G
+|b |w |b |r |r |
+|r |  |r |b |b |
+|b |w |b |r |r |
+

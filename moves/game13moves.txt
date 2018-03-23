@@ -1,0 +1,37 @@
+Game 13
+Initial Board:
+
+|  |r |r |b |b |
+|w |r |r |b |r |
+|w |r |b |b |b |
+
+F
+|w |r |r |b |b |
+|  |r |r |b |r |
+|w |r |b |b |b |
+
+G
+|w |r |r |b |b |
+|r |  |r |b |r |
+|w |r |b |b |b |
+
+H
+|w |r |r |b |b |
+|r |r |  |b |r |
+|w |r |b |b |b |
+
+C
+|w |r |  |b |b |
+|r |r |r |b |r |
+|w |r |b |b |b |
+
+D
+|w |r |b |  |b |
+|r |r |r |b |r |
+|w |r |b |b |b |
+
+I
+|w |r |b |b |b |
+|r |r |r |  |r |
+|w |r |b |b |b |
+
