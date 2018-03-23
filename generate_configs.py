@@ -11,28 +11,28 @@ rs(EXPERT)
 rs(MASTER)
 
 
-with open("novice_inputs.txt", "w") as f:
+with open("inputs1.txt", "w") as f:
     for i in range(50):
         rs(NOVICE)
         for char in NOVICE:
             f.write(char + " ")
         f.write("\n")
 
-with open("apprentice_inputs.txt", "w") as f:
+with open("inputs2.txt", "w") as f:
     for i in range(50):
         rs(APPRENTICE)
         for char in APPRENTICE:
             f.write(char + " ")
         f.write("\n")
 
-with open("expert_inputs.txt", "w") as f:
+with open("inputs3.txt", "w") as f:
     for i in range(30):
         rs(EXPERT)
         for char in EXPERT:
             f.write(char + " ")
         f.write("\n")
 
-with open("master_inputs.txt", "w") as f:
+with open("inputs4.txt", "w") as f:
     for i in range(10):
         rs(MASTER)
         for char in MASTER:
