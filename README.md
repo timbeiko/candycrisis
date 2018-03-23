@@ -3,7 +3,19 @@ Semester project for COMP472.
 
 The main file for this project is `candycrisis.py`
 
+## Instructions
 To run this on the lab machines at Concordia (Linux) you will need to run the following command: `module load python/2.7.10`
+The `generate_configs.py` file will randomly generate problems for levels 1-4. For the demo we probably do not need to run this as we will be given inputs. 
+The `candycrisis.py` file will execute the problem solving. After selecting automatic mode (by pressing `B`), you will need to select a level for the inputs.
+The levels have to be between `1-4`, otherwise the program will crash :-) 
+The input files associated with the levels must be passed as `input{level}.txt`. Note that this is singular, not plural (ex: "input1.txt").
+You will need to run the program for each level you wish to get an output for. 
+
+The output of each level will be saved to a file called `output{level}.txt`, again, singular. After each run of the program, the "full" solution (i.e. the board after each move) for each puzzle will be saved under the `/moves` folder. Note that this will be overwritten after each run. So check it before running another challenge if you want to see :-) 
+
+
+
+
 
 ### Third deliverable (Mar. 29)
 Novice: 10 seconds for 50 puzzles
