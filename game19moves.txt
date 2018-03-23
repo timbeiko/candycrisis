@@ -1,0 +1,52 @@
+Game 19
+Initial Board:
+
+|r |b |r |b |r |
+|y |w |r |y |r |
+|r |w |  |b |b |
+
+H
+|r |b |r |b |r |
+|y |w |  |y |r |
+|r |w |r |b |b |
+
+C
+|r |b |  |b |r |
+|y |w |r |y |r |
+|r |w |r |b |b |
+
+B
+|r |  |b |b |r |
+|y |w |r |y |r |
+|r |w |r |b |b |
+
+G
+|r |w |b |b |r |
+|y |  |r |y |r |
+|r |w |r |b |b |
+
+H
+|r |w |b |b |r |
+|y |r |  |y |r |
+|r |w |r |b |b |
+
+M
+|r |w |b |b |r |
+|y |r |r |y |r |
+|r |w |  |b |b |
+
+N
+|r |w |b |b |r |
+|y |r |r |y |r |
+|r |w |b |  |b |
+
+O
+|r |w |b |b |r |
+|y |r |r |y |r |
+|r |w |b |b |  |
+
+J
+|r |w |b |b |r |
+|y |r |r |y |  |
+|r |w |b |b |r |
+

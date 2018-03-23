@@ -1,0 +1,87 @@
+Game 35
+Initial Board:
+
+|r |  |y |b |r |
+|r |r |r |b |b |
+|w |r |y |w |b |
+
+A
+|  |r |y |b |r |
+|r |r |r |b |b |
+|w |r |y |w |b |
+
+F
+|r |r |y |b |r |
+|  |r |r |b |b |
+|w |r |y |w |b |
+
+K
+|r |r |y |b |r |
+|w |r |r |b |b |
+|  |r |y |w |b |
+
+L
+|r |r |y |b |r |
+|w |r |r |b |b |
+|r |  |y |w |b |
+
+G
+|r |r |y |b |r |
+|w |  |r |b |b |
+|r |r |y |w |b |
+
+H
+|r |r |y |b |r |
+|w |r |  |b |b |
+|r |r |y |w |b |
+
+I
+|r |r |y |b |r |
+|w |r |b |  |b |
+|r |r |y |w |b |
+
+J
+|r |r |y |b |r |
+|w |r |b |b |  |
+|r |r |y |w |b |
+
+E
+|r |r |y |b |  |
+|w |r |b |b |r |
+|r |r |y |w |b |
+
+D
+|r |r |y |  |b |
+|w |r |b |b |r |
+|r |r |y |w |b |
+
+C
+|r |r |  |y |b |
+|w |r |b |b |r |
+|r |r |y |w |b |
+
+H
+|r |r |b |y |b |
+|w |r |  |b |r |
+|r |r |y |w |b |
+
+I
+|r |r |b |y |b |
+|w |r |b |  |r |
+|r |r |y |w |b |
+
+N
+|r |r |b |y |b |
+|w |r |b |w |r |
+|r |r |y |  |b |
+
+M
+|r |r |b |y |b |
+|w |r |b |w |r |
+|r |r |  |y |b |
+
+H
+|r |r |b |y |b |
+|w |r |  |w |r |
+|r |r |b |y |b |
+

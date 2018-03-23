@@ -1,0 +1,22 @@
+Game 46
+Initial Board:
+
+|r |r |w |b |r |
+|  |r |b |b |y |
+|y |r |w |b |r |
+
+K
+|r |r |w |b |r |
+|y |r |b |b |y |
+|  |r |w |b |r |
+
+L
+|r |r |w |b |r |
+|y |r |b |b |y |
+|r |  |w |b |r |
+
+G
+|r |r |w |b |r |
+|y |  |b |b |y |
+|r |r |w |b |r |
+

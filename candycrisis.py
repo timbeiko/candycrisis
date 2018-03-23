@@ -125,7 +125,7 @@ def heuristic(gameConfig):
         j += 1  
     return (5 - match)*10.0 
 
-def outputGameInfo(gameCount, time, moves):
+def outputGameInfo(gameCount, time, moves, output_file="outputs.txt"):
     with open(output_file, "a") as f:
         # Number of the game
         f.write("Game " + str(gameCount) + "\n")
@@ -226,8 +226,11 @@ def manual_mode():
     return True
 
 def automatic_mode():
+    # Get number of input file from user
+    fileNum = raw_input("Please input a number between 1-4 to specify which input file to use: ")
+    output_file = "outputs" + str(fileNum) + ".txt"
     # Get initial configurations from the input file 
-    readConfigs('master_inputs.txt') 
+    readConfigs("inputs" + str(fileNum) + ".txt") 
     # Clear output file from previous games 
     open(output_file, "w")
 
@@ -263,7 +266,7 @@ def automatic_mode():
                 print
 
                 totalMovesPlayed += len(currentNode.path)
-                outputGameInfo(gameCount, time.time() - startTime, currentNode.path)
+                outputGameInfo(gameCount, time.time() - startTime, currentNode.path, output_file)
                 outputGameMoves(gameCount, currentNode.path, currentGame)
                 break 
 
@@ -312,7 +315,7 @@ def automatic_mode():
     print totalTimeTaken
 
     with open(output_file, "a") as f:
-        f.write("Total moves played: " + str(totalMovesPlayed))
+        f.write("Total moves played: " + str(totalMovesPlayed) + "\n")
         f.write("Total time taken: " + str(totalTimeTaken))
 
 def main(): 
