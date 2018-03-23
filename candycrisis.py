@@ -127,14 +127,15 @@ def heuristic(gameConfig):
 
 def outputGameInfo(gameCount, time, moves, output_file="outputs.txt"):
     with open(output_file, "a") as f:
-        # Number of the game
-        f.write("Game " + str(gameCount) + "\n")
+        # Number of the game - not needed in output
+        # f.write("Game " + str(gameCount) + "\n")
         # Moves Played
         for move in moves:
             f.write(move)
         f.write("\n")
-        # Time to complete 
-        f.write(str(time) + " seconds\n\n")
+        # Time to complete
+	milliTime = time*1000 
+        f.write(str(milliTime) + "ms\n")
 
 def outputGameMoves(gameCount, moves, currentGame):
     moveFile = "moves/game" + str(gameCount) + "moves.txt"
@@ -315,8 +316,8 @@ def automatic_mode():
     print totalTimeTaken
 
     with open(output_file, "a") as f:
-        f.write("Total moves played: " + str(totalMovesPlayed) + "\n")
-        f.write("Total time taken: " + str(totalTimeTaken))
+        f.write(str(totalMovesPlayed) + "\n")
+       #  f.write("Total time taken: " + str(totalTimeTaken))
 
 def main(): 
     # To clear the screen 
