@@ -1,162 +1,172 @@
 Game 29
 Initial Board:
 
-|g |b |  |y |w |
-|y |b |b |b |r |
-|r |w |r |r |g |
-
-H
-|g |b |b |y |w |
-|y |b |  |b |r |
-|r |w |r |r |g |
-
-I
-|g |b |b |y |w |
-|y |b |b |  |r |
-|r |w |r |r |g |
-
-N
-|g |b |b |y |w |
-|y |b |b |r |r |
-|r |w |r |  |g |
-
-M
-|g |b |b |y |w |
-|y |b |b |r |r |
-|r |w |  |r |g |
-
-L
-|g |b |b |y |w |
-|y |b |b |r |r |
-|r |  |w |r |g |
-
-G
-|g |b |b |y |w |
-|y |  |b |r |r |
-|r |b |w |r |g |
-
-H
-|g |b |b |y |w |
-|y |b |  |r |r |
-|r |b |w |r |g |
-
-C
-|g |b |  |y |w |
-|y |b |b |r |r |
-|r |b |w |r |g |
-
-D
-|g |b |y |  |w |
-|y |b |b |r |r |
-|r |b |w |r |g |
-
-E
-|g |b |y |w |  |
-|y |b |b |r |r |
-|r |b |w |r |g |
-
-J
-|g |b |y |w |r |
-|y |b |b |r |  |
-|r |b |w |r |g |
-
-O
-|g |b |y |w |r |
-|y |b |b |r |g |
-|r |b |w |r |  |
-
-N
-|g |b |y |w |r |
-|y |b |b |r |g |
-|r |b |w |  |r |
-
-M
-|g |b |y |w |r |
-|y |b |b |r |g |
-|r |b |  |w |r |
-
-H
-|g |b |y |w |r |
-|y |b |  |r |g |
-|r |b |b |w |r |
-
-C
-|g |b |  |w |r |
-|y |b |y |r |g |
-|r |b |b |w |r |
-
-B
-|g |  |b |w |r |
-|y |b |y |r |g |
-|r |b |b |w |r |
-
-G
-|g |b |b |w |r |
-|y |  |y |r |g |
-|r |b |b |w |r |
-
-H
-|g |b |b |w |r |
-|y |y |  |r |g |
-|r |b |b |w |r |
-
-C
-|g |b |  |w |r |
-|y |y |b |r |g |
-|r |b |b |w |r |
-
-B
-|g |  |b |w |r |
-|y |y |b |r |g |
-|r |b |b |w |r |
-
-G
-|g |y |b |w |r |
-|y |  |b |r |g |
-|r |b |b |w |r |
-
-L
-|g |y |b |w |r |
-|y |b |b |r |g |
-|r |  |b |w |r |
+|y |r |r |p |p |
+|  |w |g |r |w |
+|b |b |g |r |y |
 
 K
-|g |y |b |w |r |
-|y |b |b |r |g |
-|  |r |b |w |r |
-
-F
-|g |y |b |w |r |
-|  |b |b |r |g |
-|y |r |b |w |r |
-
-A
-|  |y |b |w |r |
-|g |b |b |r |g |
-|y |r |b |w |r |
-
-B
-|y |  |b |w |r |
-|g |b |b |r |g |
-|y |r |b |w |r |
-
-G
-|y |b |b |w |r |
-|g |  |b |r |g |
-|y |r |b |w |r |
+|y |r |r |p |p |
+|b |w |g |r |w |
+|  |b |g |r |y |
 
 L
-|y |b |b |w |r |
-|g |r |b |r |g |
-|y |  |b |w |r |
+|y |r |r |p |p |
+|b |w |g |r |w |
+|b |  |g |r |y |
+
+G
+|y |r |r |p |p |
+|b |  |g |r |w |
+|b |w |g |r |y |
+
+B
+|y |  |r |p |p |
+|b |r |g |r |w |
+|b |w |g |r |y |
+
+A
+|  |y |r |p |p |
+|b |r |g |r |w |
+|b |w |g |r |y |
+
+F
+|b |y |r |p |p |
+|  |r |g |r |w |
+|b |w |g |r |y |
+
+G
+|b |y |r |p |p |
+|r |  |g |r |w |
+|b |w |g |r |y |
+
+L
+|b |y |r |p |p |
+|r |w |g |r |w |
+|b |  |g |r |y |
 
 M
-|y |b |b |w |r |
-|g |r |b |r |g |
-|y |b |  |w |r |
+|b |y |r |p |p |
+|r |w |g |r |w |
+|b |g |  |r |y |
+
+N
+|b |y |r |p |p |
+|r |w |g |r |w |
+|b |g |r |  |y |
+
+I
+|b |y |r |p |p |
+|r |w |g |  |w |
+|b |g |r |r |y |
+
+J
+|b |y |r |p |p |
+|r |w |g |w |  |
+|b |g |r |r |y |
+
+E
+|b |y |r |p |  |
+|r |w |g |w |p |
+|b |g |r |r |y |
+
+D
+|b |y |r |  |p |
+|r |w |g |w |p |
+|b |g |r |r |y |
+
+C
+|b |y |  |r |p |
+|r |w |g |w |p |
+|b |g |r |r |y |
 
 H
-|y |b |b |w |r |
-|g |r |  |r |g |
-|y |b |b |w |r |
+|b |y |g |r |p |
+|r |w |  |w |p |
+|b |g |r |r |y |
+
+G
+|b |y |g |r |p |
+|r |  |w |w |p |
+|b |g |r |r |y |
+
+B
+|b |  |g |r |p |
+|r |y |w |w |p |
+|b |g |r |r |y |
+
+C
+|b |g |  |r |p |
+|r |y |w |w |p |
+|b |g |r |r |y |
+
+D
+|b |g |r |  |p |
+|r |y |w |w |p |
+|b |g |r |r |y |
+
+I
+|b |g |r |w |p |
+|r |y |w |  |p |
+|b |g |r |r |y |
+
+H
+|b |g |r |w |p |
+|r |y |  |w |p |
+|b |g |r |r |y |
+
+M
+|b |g |r |w |p |
+|r |y |r |w |p |
+|b |g |  |r |y |
+
+N
+|b |g |r |w |p |
+|r |y |r |w |p |
+|b |g |r |  |y |
+
+I
+|b |g |r |w |p |
+|r |y |r |  |p |
+|b |g |r |w |y |
+
+J
+|b |g |r |w |p |
+|r |y |r |p |  |
+|b |g |r |w |y |
+
+E
+|b |g |r |w |  |
+|r |y |r |p |p |
+|b |g |r |w |y |
+
+D
+|b |g |r |  |w |
+|r |y |r |p |p |
+|b |g |r |w |y |
+
+I
+|b |g |r |p |w |
+|r |y |r |  |p |
+|b |g |r |w |y |
+
+J
+|b |g |r |p |w |
+|r |y |r |p |  |
+|b |g |r |w |y |
+
+O
+|b |g |r |p |w |
+|r |y |r |p |y |
+|b |g |r |w |  |
+
+N
+|b |g |r |p |w |
+|r |y |r |p |y |
+|b |g |r |  |w |
+
+I
+|b |g |r |p |w |
+|r |y |r |  |y |
+|b |g |r |p |w |
 
