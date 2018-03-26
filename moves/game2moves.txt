@@ -1,0 +1,77 @@
+Game 2
+Initial Board:
+
+|b |b |r |r |w |
+|y |g |w |r |r |
+|  |b |y |b |g |
+
+L
+|b |b |r |r |w |
+|y |g |w |r |r |
+|b |  |y |b |g |
+
+M
+|b |b |r |r |w |
+|y |g |w |r |r |
+|b |y |  |b |g |
+
+N
+|b |b |r |r |w |
+|y |g |w |r |r |
+|b |y |b |  |g |
+
+I
+|b |b |r |r |w |
+|y |g |w |  |r |
+|b |y |b |r |g |
+
+H
+|b |b |r |r |w |
+|y |g |  |w |r |
+|b |y |b |r |g |
+
+G
+|b |b |r |r |w |
+|y |  |g |w |r |
+|b |y |b |r |g |
+
+L
+|b |b |r |r |w |
+|y |y |g |w |r |
+|b |  |b |r |g |
+
+M
+|b |b |r |r |w |
+|y |y |g |w |r |
+|b |b |  |r |g |
+
+N
+|b |b |r |r |w |
+|y |y |g |w |r |
+|b |b |r |  |g |
+
+I
+|b |b |r |r |w |
+|y |y |g |  |r |
+|b |b |r |w |g |
+
+J
+|b |b |r |r |w |
+|y |y |g |r |  |
+|b |b |r |w |g |
+
+O
+|b |b |r |r |w |
+|y |y |g |r |g |
+|b |b |r |w |  |
+
+N
+|b |b |r |r |w |
+|y |y |g |r |g |
+|b |b |r |  |w |
+
+I
+|b |b |r |r |w |
+|y |y |g |  |g |
+|b |b |r |r |w |
+

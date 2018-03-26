@@ -1,0 +1,52 @@
+Game 27
+Initial Board:
+
+|b |  |y |g |w |
+|r |r |r |g |y |
+|b |r |b |b |w |
+
+G
+|b |r |y |g |w |
+|r |  |r |g |y |
+|b |r |b |b |w |
+
+H
+|b |r |y |g |w |
+|r |r |  |g |y |
+|b |r |b |b |w |
+
+I
+|b |r |y |g |w |
+|r |r |g |  |y |
+|b |r |b |b |w |
+
+N
+|b |r |y |g |w |
+|r |r |g |b |y |
+|b |r |b |  |w |
+
+M
+|b |r |y |g |w |
+|r |r |g |b |y |
+|b |r |  |b |w |
+
+H
+|b |r |y |g |w |
+|r |r |  |b |y |
+|b |r |g |b |w |
+
+C
+|b |r |  |g |w |
+|r |r |y |b |y |
+|b |r |g |b |w |
+
+D
+|b |r |g |  |w |
+|r |r |y |b |y |
+|b |r |g |b |w |
+
+I
+|b |r |g |b |w |
+|r |r |y |  |y |
+|b |r |g |b |w |
+

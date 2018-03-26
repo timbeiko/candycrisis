@@ -1,0 +1,122 @@
+Game 50
+Initial Board:
+
+|r |r |  |r |w |
+|y |r |w |r |b |
+|y |b |b |r |b |
+
+B
+|r |  |r |r |w |
+|y |r |w |r |b |
+|y |b |b |r |b |
+
+A
+|  |r |r |r |w |
+|y |r |w |r |b |
+|y |b |b |r |b |
+
+F
+|y |r |r |r |w |
+|  |r |w |r |b |
+|y |b |b |r |b |
+
+G
+|y |r |r |r |w |
+|r |  |w |r |b |
+|y |b |b |r |b |
+
+L
+|y |r |r |r |w |
+|r |b |w |r |b |
+|y |  |b |r |b |
+
+M
+|y |r |r |r |w |
+|r |b |w |r |b |
+|y |b |  |r |b |
+
+H
+|y |r |r |r |w |
+|r |b |  |r |b |
+|y |b |w |r |b |
+
+C
+|y |r |  |r |w |
+|r |b |r |r |b |
+|y |b |w |r |b |
+
+B
+|y |  |r |r |w |
+|r |b |r |r |b |
+|y |b |w |r |b |
+
+G
+|y |b |r |r |w |
+|r |  |r |r |b |
+|y |b |w |r |b |
+
+H
+|y |b |r |r |w |
+|r |r |  |r |b |
+|y |b |w |r |b |
+
+M
+|y |b |r |r |w |
+|r |r |w |r |b |
+|y |b |  |r |b |
+
+N
+|y |b |r |r |w |
+|r |r |w |r |b |
+|y |b |r |  |b |
+
+I
+|y |b |r |r |w |
+|r |r |w |  |b |
+|y |b |r |r |b |
+
+H
+|y |b |r |r |w |
+|r |r |  |w |b |
+|y |b |r |r |b |
+
+C
+|y |b |  |r |w |
+|r |r |r |w |b |
+|y |b |r |r |b |
+
+D
+|y |b |r |  |w |
+|r |r |r |w |b |
+|y |b |r |r |b |
+
+E
+|y |b |r |w |  |
+|r |r |r |w |b |
+|y |b |r |r |b |
+
+J
+|y |b |r |w |b |
+|r |r |r |w |  |
+|y |b |r |r |b |
+
+I
+|y |b |r |w |b |
+|r |r |r |  |w |
+|y |b |r |r |b |
+
+D
+|y |b |r |  |b |
+|r |r |r |w |w |
+|y |b |r |r |b |
+
+C
+|y |b |  |r |b |
+|r |r |r |w |w |
+|y |b |r |r |b |
+
+H
+|y |b |r |r |b |
+|r |r |  |w |w |
+|y |b |r |r |b |
+

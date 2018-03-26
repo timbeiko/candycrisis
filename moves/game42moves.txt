@@ -1,0 +1,87 @@
+Game 42
+Initial Board:
+
+|b |b |w |r |r |
+|w |  |b |r |r |
+|y |r |y |r |b |
+
+H
+|b |b |w |r |r |
+|w |b |  |r |r |
+|y |r |y |r |b |
+
+M
+|b |b |w |r |r |
+|w |b |y |r |r |
+|y |r |  |r |b |
+
+L
+|b |b |w |r |r |
+|w |b |y |r |r |
+|y |  |r |r |b |
+
+G
+|b |b |w |r |r |
+|w |  |y |r |r |
+|y |b |r |r |b |
+
+F
+|b |b |w |r |r |
+|  |w |y |r |r |
+|y |b |r |r |b |
+
+K
+|b |b |w |r |r |
+|y |w |y |r |r |
+|  |b |r |r |b |
+
+L
+|b |b |w |r |r |
+|y |w |y |r |r |
+|b |  |r |r |b |
+
+G
+|b |b |w |r |r |
+|y |  |y |r |r |
+|b |w |r |r |b |
+
+B
+|b |  |w |r |r |
+|y |b |y |r |r |
+|b |w |r |r |b |
+
+C
+|b |w |  |r |r |
+|y |b |y |r |r |
+|b |w |r |r |b |
+
+D
+|b |w |r |  |r |
+|y |b |y |r |r |
+|b |w |r |r |b |
+
+E
+|b |w |r |r |  |
+|y |b |y |r |r |
+|b |w |r |r |b |
+
+J
+|b |w |r |r |r |
+|y |b |y |r |  |
+|b |w |r |r |b |
+
+O
+|b |w |r |r |r |
+|y |b |y |r |b |
+|b |w |r |r |  |
+
+N
+|b |w |r |r |r |
+|y |b |y |r |b |
+|b |w |r |  |r |
+
+I
+|b |w |r |r |r |
+|y |b |y |  |b |
+|b |w |r |r |r |
+

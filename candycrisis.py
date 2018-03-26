@@ -115,15 +115,32 @@ def heuristic(gameConfig):
 
     # Heuristic 3: like 1, but multiplied by 10. 
     # Much quicker than H1
+    # i = 0 
+    # j = 10 
+    # match = 0 
+    # while i < 5: 
+    #     if gc[i] == gc[j]:
+    #         match += 1 
+    #     i += 1 
+    #     j += 1  
+    # return (5 - match)*10.0 
+
+    # Heuristic 4: like H3, but takes middle row into account
     i = 0 
+    k = 5
     j = 10 
     match = 0 
     while i < 5: 
         if gc[i] == gc[j]:
             match += 1 
+        if gc[i] == gc[k]:
+            match += .3
+        if gc[j] == gc[k]:
+            match += .3
         i += 1 
         j += 1  
-    return (5 - match)*10.0 
+        k += 1
+    return (5-match) * 10
 
 def outputGameInfo(gameCount, time, moves, output_file="outputs.txt"):
     with open(output_file, "a") as f:

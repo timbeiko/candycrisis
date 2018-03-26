@@ -1,0 +1,127 @@
+Game 22
+Initial Board:
+
+|w |w |r |g |y |
+|b |r |b |r |  |
+|g |b |y |b |r |
+
+I
+|w |w |r |g |y |
+|b |r |b |  |r |
+|g |b |y |b |r |
+
+H
+|w |w |r |g |y |
+|b |r |  |b |r |
+|g |b |y |b |r |
+
+G
+|w |w |r |g |y |
+|b |  |r |b |r |
+|g |b |y |b |r |
+
+F
+|w |w |r |g |y |
+|  |b |r |b |r |
+|g |b |y |b |r |
+
+A
+|  |w |r |g |y |
+|w |b |r |b |r |
+|g |b |y |b |r |
+
+B
+|w |  |r |g |y |
+|w |b |r |b |r |
+|g |b |y |b |r |
+
+G
+|w |b |r |g |y |
+|w |  |r |b |r |
+|g |b |y |b |r |
+
+H
+|w |b |r |g |y |
+|w |r |  |b |r |
+|g |b |y |b |r |
+
+C
+|w |b |  |g |y |
+|w |r |r |b |r |
+|g |b |y |b |r |
+
+D
+|w |b |g |  |y |
+|w |r |r |b |r |
+|g |b |y |b |r |
+
+E
+|w |b |g |y |  |
+|w |r |r |b |r |
+|g |b |y |b |r |
+
+J
+|w |b |g |y |r |
+|w |r |r |b |  |
+|g |b |y |b |r |
+
+I
+|w |b |g |y |r |
+|w |r |r |  |b |
+|g |b |y |b |r |
+
+N
+|w |b |g |y |r |
+|w |r |r |b |b |
+|g |b |y |  |r |
+
+M
+|w |b |g |y |r |
+|w |r |r |b |b |
+|g |b |  |y |r |
+
+H
+|w |b |g |y |r |
+|w |r |  |b |b |
+|g |b |r |y |r |
+
+G
+|w |b |g |y |r |
+|w |  |r |b |b |
+|g |b |r |y |r |
+
+B
+|w |  |g |y |r |
+|w |b |r |b |b |
+|g |b |r |y |r |
+
+C
+|w |g |  |y |r |
+|w |b |r |b |b |
+|g |b |r |y |r |
+
+H
+|w |g |r |y |r |
+|w |b |  |b |b |
+|g |b |r |y |r |
+
+G
+|w |g |r |y |r |
+|w |  |b |b |b |
+|g |b |r |y |r |
+
+L
+|w |g |r |y |r |
+|w |b |b |b |b |
+|g |  |r |y |r |
+
+K
+|w |g |r |y |r |
+|w |b |b |b |b |
+|  |g |r |y |r |
+
+F
+|w |g |r |y |r |
+|  |b |b |b |b |
+|w |g |r |y |r |
+
